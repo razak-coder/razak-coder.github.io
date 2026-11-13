@@ -10,14 +10,16 @@
   <meta property="og:image" content="https://razak-coder.github.io/assets/profile.jpg">
   <meta property="og:url" content="https://razak-coder.github.io/">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#0f1a2b">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230f1a2b'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='28' fill='%23ffffff'>HA</text></svg>">
+  <meta name="theme-color" content="#FAFAFA" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#09090B" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%2318181B'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='28' fill='%23ffffff'>HA</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script>
-    // Applique le thème avant l'affichage pour éviter le flash
+    // Active les animations seulement si JS tourne, et applique le thème avant l'affichage
+    document.documentElement.classList.add('js');
     try {
       var t = localStorage.getItem('theme');
       if (t) document.documentElement.setAttribute('data-theme', t);
@@ -198,7 +200,7 @@
         <form class="form" id="contact-form" novalidate>
           <div class="field">
             <label for="f-name" data-i18n="form.name">Votre nom</label>
-            <input id="f-name" name="name" type="text" autocomplete="name" required>
+            <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="form-error">
           </div>
           <div class="field">
             <label for="f-subject" data-i18n="form.subject">Sujet</label>
@@ -210,7 +212,7 @@
           </div>
           <div class="field">
             <label for="f-message" data-i18n="form.message">Votre message</label>
-            <textarea id="f-message" name="message" rows="5" required></textarea>
+            <textarea id="f-message" name="message" rows="5" required aria-describedby="form-error"></textarea>
           </div>
           <p class="form__error" id="form-error" role="alert" hidden data-i18n="form.error">Merci de remplir votre nom et votre message.</p>
           <div class="form__actions">

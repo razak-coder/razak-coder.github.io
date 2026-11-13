@@ -202,7 +202,15 @@
     var name = document.getElementById("f-name").value.trim();
     var message = document.getElementById("f-message").value.trim();
     var err = document.getElementById("form-error");
-    if (!name || !message) { err.hidden = false; return; }
+    var fName = document.getElementById("f-name");
+    var fMsg = document.getElementById("f-message");
+    fName.setAttribute("aria-invalid", String(!name));
+    fMsg.setAttribute("aria-invalid", String(!message));
+    if (!name || !message) {
+      err.hidden = false;
+      (!name ? fName : fMsg).focus();
+      return;
+    }
     err.hidden = true;
     var sel = document.getElementById("f-subject");
     var subject = sel.options[sel.selectedIndex].textContent;
