@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>CV — Hamadou Abdourazak</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  :root { --ink:#09090B; --muted:#52525B; --line:#E4E4E7; --accent:#2563EB; --soft:#F4F4F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 210mm; height: 297mm; }
+  body { font-family: "Inter", Arial, sans-serif; color: var(--ink); font-size: 8.4pt; line-height: 1.38; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; padding: 11mm 13mm 9mm; display: flex; flex-direction: column; overflow: hidden; }
+
+  header { display: grid; grid-template-columns: 30mm 1fr; gap: 7mm; align-items: center; padding-bottom: 5mm; border-bottom: 1.5px solid var(--ink); }
+  .ph { width: 30mm; height: 36mm; overflow: hidden; background: #F4F4F5; }
+  .ph img { display: block; width: 90mm; height: auto; margin-left: -28.5mm; margin-top: -1mm; }
+  h1 { font-size: 23pt; line-height: 1; letter-spacing: -.03em; font-weight: 700; }
+  .role { font-size: 11pt; font-weight: 600; margin-top: 2.2mm; padding-left: 3mm; border-left: 2.5px solid var(--accent); }
+  .summary { color: var(--muted); margin-top: 2.6mm; max-width: 140mm; }
+  .contact { display: grid; grid-template-columns: auto auto; justify-content: start; gap: 1mm 8mm; white-space: nowrap; margin-top: 3mm; font-size: 8pt; }
+  .contact span b { display: inline-block; width: 15mm; font-weight: 600; color: var(--muted); }
+  a { color: inherit; text-decoration: none; }
+
+  .cols { display: grid; grid-template-columns: 70mm 1fr; gap: 8mm; margin-top: 4.5mm; flex: 1; }
+  h2 { display: flex; align-items: center; gap: 2.5mm; font-size: 7.6pt; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; margin: 0 0 2.4mm; }
+  h2::before { content: ""; width: 3mm; height: 3mm; background: var(--accent); flex: none; }
+  section + section { margin-top: 4mm; }
+
+  .item + .item { margin-top: 2.8mm; }
+  .item h3 { font-size: 9.2pt; font-weight: 600; line-height: 1.3; }
+  .meta { color: var(--muted); font-size: 7.9pt; display: flex; justify-content: space-between; gap: 3mm; }
+  .meta .date { color: var(--accent); font-weight: 600; white-space: nowrap; }
+  ul.b { margin: 1.2mm 0 0 3.6mm; }
+  ul.b li { margin-bottom: .5mm; padding-left: .6mm; }
+  ul.b li::marker { color: var(--accent); }
+
+  .sk + .sk { margin-top: 1.6mm; }
+  .sk b { display: block; font-size: 7.6pt; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+  .sk h4 { font-size: 7.9pt; font-weight: 600; color: var(--muted); margin-bottom: 1mm; }
+  .tags { display: flex; flex-wrap: wrap; gap: 1.1mm; list-style: none; }
+  .tags li { border: 1px solid var(--line); background: var(--soft); padding: .35mm 1.7mm; font-size: 7.6pt; font-weight: 500; }
+  .plain { list-style: none; }
+  .plain li { padding: 1mm 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 3mm; }
+  .plain li:last-child { border-bottom: 0; }
+  .plain li span:last-child { color: var(--muted); }
+  .proj b { font-weight: 600; }
+  .proj .tech { color: var(--muted); }
+  .acad { columns: 2; column-gap: 6mm; margin-top: 1.2mm; margin-left: 3.6mm; }
+  .acad li { break-inside: avoid; margin-bottom: .6mm; }
+  .acad li::marker { color: var(--accent); }
+
+  footer { margin-top: 3mm; padding-top: 2.4mm; border-top: 1px solid var(--line); color: var(--muted); font-size: 7.6pt; display: flex; justify-content: space-between; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="ph"><img src="photo.jpg" alt="Hamadou Abdourazak"></div>
+    <div>
+      <h1>HAMADOU ABDOURAZAK</h1>
+      <p class="role">Développeur Web &amp; Mobile</p>
+      <p class="summary">Diplômé d'une licence en informatique (mention Très bien), je conçois des applications web et mobiles, de la base de données jusqu'à l'interface. Dynamique, organisé et méthodique, doté d'un bon relationnel, d'un esprit d'initiative et d'un sens aigu des responsabilités et de la confidentialité.</p>
+      <div class="contact">
+        <span><b>Tél.</b>+228 70 29 36 98 · 99 71 87 92</span>
+        <span><b>E-mail</b><a href="mailto:hamadouabdourazak96@gmail.com">hamadouabdourazak96@gmail.com</a></span>
+        <span><b>Adresse</b>Agoè-Zongo, Lomé — Togo</span>
+        <span><b>Portfolio</b><a href="https://razak-coder.github.io">razak-coder.github.io</a></span>
+        <span><b>LinkedIn</b><a href="https://linkedin.com/in/abdourazak-hamadou-491520297">in/abdourazak-hamadou</a></span>
+        <span><b>GitHub</b><a href="https://github.com/razak-coder">github.com/razak-coder</a></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="cols">
+    <!-- Colonne gauche -->
+    <div>
+      <section>
+        <h2>Formation &amp; certifications</h2>
+        <div class="item">
+          <h3>Licence en Informatique — Mention Très bien (17,5/20)</h3>
+          <div class="meta"><span>ESGIS Togo, Lomé</span><span class="date">2023 – 2026</span></div>
+        </div>
+        <div class="item">
+          <h3>Certified Linux Foundations (CLF)</h3>
+          <div class="meta"><span>PECB — en cours, examen prévu</span><span class="date">2026</span></div>
+        </div>
+        <div class="item">
+          <h3>Certification IT Essentials 7.02</h3>
+          <div class="meta"><span>Cisco Networking Academy</span><span class="date">2026</span></div>
+        </div>
+        <div class="item">
+          <h3>Certification en administration réseau</h3>
+          <div class="meta"><span>PSM, Lomé</span><span class="date">2 mois</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Compétences techniques</h2>
+        <p class="sk"><b>Langages</b> C · C++ · Java · Kotlin · Python · PHP · JavaScript · Dart · XML</p>
+        <p class="sk"><b>Frameworks</b> Laravel · React · Angular · Node.js · Prisma · MERN · Flutter · Spring Boot · Django · JavaFX</p>
+        <p class="sk"><b>Bases de données</b> PostgreSQL · MySQL · SQL Server · Firebase</p>
+        <p class="sk"><b>Concepts</b> API REST · Architecture applicative · CRUD · Merise / UML</p>
+        <p class="sk"><b>Réseaux &amp; systèmes</b> Administration réseau · Linux · Docker</p>
+        <p class="sk"><b>Outils</b> Git / GitHub · VS Code · IntelliJ IDEA · Android Studio · WordPress · Figma · Draw.io · PowerAMC · Notion · Trello · IA</p>
+        <p class="sk"><b>Méthodes</b> Agile · Structuration de projet · Suivi de tâches · Documentation</p>
+        <p class="sk"><b>En apprentissage</b> C# · ASP.NET MVC · .NET Core</p>
+      </section>
+
+      <section>
+        <h2>Langues</h2>
+        <ul class="plain">
+          <li><span>Français</span><span>Courant</span></li>
+          <li><span>Anglais</span><span>Technique</span></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Centres d'intérêt</h2>
+        <ul class="b" style="margin-top:0">
+          <li>Analyse &amp; développement d'applications</li>
+          <li>Systèmes bancaires et solutions digitales</li>
+          <li>Gestion de projet et innovation technologique</li>
+          <li>Import de marchandises depuis la Chine</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Colonne droite -->
+    <div>
+      <section>
+        <h2>Expériences professionnelles</h2>
+        <div class="item">
+          <h3>Stagiaire en développement mobile &amp; web — ROOK-IT</h3>
+          <div class="meta"><span>Lomé</span><span class="date">Stage de fin d'études</span></div>
+          <ul class="b">
+            <li>Conception et développement de « Vivre O TGO », application mobile multiservices pour le quotidien des Togolais (Flutter, Firebase).</li>
+            <li>Projet présenté en soutenance de licence.</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>Stagiaire en informatique — SaaSIB</h3>
+          <div class="meta"><span>Lomé</span><span class="date">Stage professionnel</span></div>
+          <ul class="b">
+            <li>Développement de site web avec le framework PHP Laravel.</li>
+            <li>Animation de sessions de formation en informatique.</li>
+            <li>Appui à l'organisation, au suivi des tâches et à la structuration des projets.</li>
+            <li>Travail avec des équipes techniques et non techniques.</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>Gestionnaire de boutique — RAZAKO MHD</h3>
+          <div class="meta"><span>Lomé</span><span class="date">Expérience professionnelle</span></div>
+          <ul class="b">
+            <li>Supervision quotidienne des opérations, avec un chiffre d'affaires moyen de 300 000 FCFA.</li>
+            <li>Gestion des stocks et suivi des approvisionnements.</li>
+            <li>Optimisation des ventes et mise en place de stratégies de fidélisation de la clientèle.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projets</h2>
+        <div class="item proj">
+          <h3>Vivre O TGO — application mobile multiservices</h3>
+          <p>Pharmacies de garde géolocalisées, lignes de bus et horaires, numéros d'urgence, mode hors-ligne, back-office. <span class="tech">Flutter · Firebase · Riverpod · OpenStreetMap</span></p>
+        </div>
+        <div class="item proj">
+          <h3>Studio Galaxy 7 — gestion de matériel audiovisuel</h3>
+          <p>Location, vente, tournages et emprunts ; API sécurisée par rôles, application de bureau, site vitrine, reçus PDF, plus de 450 tests. <span class="tech">Spring Boot · PostgreSQL · Flutter · Django · Docker</span></p>
+        </div>
+        <div class="item proj">
+          <h3>Goul Community — communautés universitaires du Togo</h3>
+          <p>Annuaire des universités, fil d'actualité du campus, clubs et profils étudiants. <span class="tech">Flutter · Firebase</span></p>
+        </div>
+        <div class="item proj">
+          <h3>Projets académiques</h3>
+          <ul class="acad">
+            <li>Gestion de bons — React, Node.js, Prisma, PostgreSQL</li>
+            <li>Tutorat étudiants / tuteurs — MERN</li>
+            <li>Évaluation des enseignants — React, Node.js, MySQL</li>
+            <li>Gestion d'hôtel — JavaScript, Node.js</li>
+            <li>Location de cassettes — Java EE, JavaFX</li>
+            <li>Application Android de gestion des mesures</li>
+            <li>Site e-commerce — HTML, CSS, JavaScript</li>
+            <li>Système d'information — Merise, UML</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <span>Nationalité togolaise</span>
+    <span>Portfolio complet : razak-coder.github.io</span>
+  </footer>
+</div>
+</body>
+</html>

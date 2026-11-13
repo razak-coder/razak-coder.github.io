@@ -478,10 +478,10 @@ window.SITE = {
       title: { fr: "Stagiaire en informatique", en: "IT intern", ar: "متدرّب في المعلوميات", zh: "IT 实习生" },
       place: { fr: "SaaSIB", en: "SaaSIB", ar: "SaaSIB", zh: "SaaSIB" },
       text: {
-        fr: "Contribution à différents projets et activités techniques selon les besoins de l'entreprise ; participation à l'évolution et à l'amélioration de ses solutions numériques.",
-        en: "Contributed to various projects and technical tasks as the company needed; helped evolve and improve its digital solutions.",
-        ar: "المساهمة في مشاريع وأنشطة تقنية متنوعة حسب احتياجات الشركة، والمشاركة في تطوير حلولها الرقمية وتحسينها.",
-        zh: "根据公司需要参与多个项目和技术工作；参与公司数字化解决方案的迭代与优化。"
+        fr: "Développement de site web avec le framework PHP Laravel, animation de sessions de formation en informatique, appui à l'organisation et au suivi des projets, en lien avec des équipes techniques et non techniques.",
+        en: "Built a website with the PHP Laravel framework, ran IT training sessions, supported project organisation and task tracking, working with both technical and non-technical teams.",
+        ar: "تطوير موقع ويب بإطار PHP Laravel، وتنشيط دورات تكوينية في المعلوميات، ودعم تنظيم المشاريع ومتابعة المهام، بالتعاون مع فرق تقنية وغير تقنية.",
+        zh: "使用 PHP Laravel 框架开发网站，主持计算机培训课程，协助项目组织与任务跟踪，并与技术和非技术团队协作。"
       }
     },
     {
@@ -490,10 +490,10 @@ window.SITE = {
       title: { fr: "Gestionnaire de boutique", en: "Shop manager", ar: "مسيّر متجر", zh: "店铺经理" },
       place: { fr: "RAZAKO MHD", en: "RAZAKO MHD", ar: "RAZAKO MHD", zh: "RAZAKO MHD" },
       text: {
-        fr: "Supervision quotidienne des opérations avec un chiffre d'affaires moyen de 300 000 FCFA, gestion des stocks et suivi des approvisionnements.",
-        en: "Supervised daily operations with average revenue of 300,000 FCFA, managed stock and followed up on supplies.",
-        ar: "الإشراف اليومي على العمليات برقم أعمال متوسط قدره 300,000 فرنك إفريقي، وتسيير المخزون ومتابعة التموين.",
-        zh: "负责日常运营管理（平均营业额 300,000 西非法郎），管理库存并跟进补货。"
+        fr: "Supervision quotidienne des opérations avec un chiffre d'affaires moyen de 300 000 FCFA, gestion des stocks, suivi des approvisionnements, optimisation des ventes et fidélisation de la clientèle.",
+        en: "Supervised daily operations with average revenue of 300,000 FCFA, managed stock and supplies, optimised sales and built customer loyalty strategies.",
+        ar: "الإشراف اليومي على العمليات برقم أعمال متوسط قدره 300,000 فرنك إفريقي، وتسيير المخزون ومتابعة التموين، وتحسين المبيعات ووضع استراتيجيات لكسب وفاء الزبائن.",
+        zh: "负责日常运营管理（平均营业额 300,000 西非法郎），管理库存与补货，优化销售并制定客户忠诚度策略。"
       }
     },
     {
