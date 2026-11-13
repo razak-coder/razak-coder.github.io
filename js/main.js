@@ -216,7 +216,7 @@
     var subject = sel.options[sel.selectedIndex].textContent;
     var body = t("form.greeting") + " " + name + ".\n\n[" + subject + "]\n" + message;
     if (channel === "email") {
-      window.location.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent(subject + " — " + name) +
+      window.location.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent(subject + " | " + name) +
         "&body=" + encodeURIComponent(body);
     } else {
       window.open("https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(body), "_blank", "noopener");

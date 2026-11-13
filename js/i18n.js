@@ -1,5 +1,5 @@
 /*
- * CONTENU DU SITE — c'est ici que tu modifies tes textes.
+ * CONTENU DU SITE : c'est ici que tu modifies tes textes.
  *  - SITE.ui        : textes de l'interface, dans les 4 langues (fr, en, ar, zh)
  *  - SITE.services  : tes services
  *  - SITE.skills    : tes compétences   (section masquée si la liste est vide)
@@ -13,7 +13,7 @@ window.SITE = {
 
   ui: {
     fr: {
-      "meta.title": "Hamadou Abdourazak — Portfolio",
+      "meta.title": "Hamadou Abdourazak | Portfolio",
       "nav.skip": "Aller au contenu",
       "nav.about": "À propos",
       "nav.services": "Services",
@@ -35,7 +35,7 @@ window.SITE = {
       "about.p1": "Je suis Hamadou Abdourazak, développeur web et mobile basé à Lomé. Formé à l'analyse et au développement d'applications, je conçois des solutions fiables et adaptées au mobile, de la base de données jusqu'à l'interface, en passant par les API.",
       "about.p2": "En parallèle, j'accompagne particuliers et commerçants dans l'importation de marchandises depuis la Chine : recherche de fournisseurs, négociation, contrôle et suivi de l'expédition jusqu'à la livraison.",
       "about.locationLabel": "Basé à",
-      "about.location": "Agoè-Zongo, Lomé — Togo",
+      "about.location": "Agoè-Zongo, Lomé, Togo",
       "about.langsLabel": "Langues",
       "about.langs": "Français (courant), Anglais (technique)",
       "about.workLabel": "Travail",
@@ -73,7 +73,7 @@ window.SITE = {
     },
 
     en: {
-      "meta.title": "Hamadou Abdourazak — Portfolio",
+      "meta.title": "Hamadou Abdourazak | Portfolio",
       "nav.skip": "Skip to content",
       "nav.about": "About",
       "nav.services": "Services",
@@ -95,7 +95,7 @@ window.SITE = {
       "about.p1": "I'm Hamadou Abdourazak, a web and mobile developer based in Lomé. Trained in application analysis and development, I build reliable, mobile-friendly solutions, from the database and APIs to the interface.",
       "about.p2": "I also help individuals and traders import goods from China: finding suppliers, negotiating, checking quality and tracking shipments all the way to delivery.",
       "about.locationLabel": "Based in",
-      "about.location": "Agoè-Zongo, Lomé — Togo",
+      "about.location": "Agoè-Zongo, Lomé, Togo",
       "about.langsLabel": "Languages",
       "about.langs": "French (fluent), English (technical)",
       "about.workLabel": "Work",
@@ -116,7 +116,7 @@ window.SITE = {
       "journey.title": "Experience, education and certifications",
       "contact.kicker": "Contact",
       "contact.title": "Let's talk about your project",
-      "contact.lead": "A website to build, an order to import from China, or just a question? Write to me — I reply quickly.",
+      "contact.lead": "A website to build, an order to import from China, or just a question? Write to me and I'll reply quickly.",
       "contact.whatsapp": "Message me on WhatsApp",
       "form.name": "Your name",
       "form.subject": "Subject",
@@ -133,7 +133,7 @@ window.SITE = {
     },
 
     ar: {
-      "meta.title": "حمادو عبد الرزاق — معرض الأعمال",
+      "meta.title": "حمادو عبد الرزاق | معرض الأعمال",
       "nav.skip": "انتقل إلى المحتوى",
       "nav.about": "من أنا",
       "nav.services": "الخدمات",
@@ -155,7 +155,7 @@ window.SITE = {
       "about.p1": "أنا حمادو عبد الرزاق، مطوّر ويب وتطبيقات جوال مقيم في لومي. تكوّنت في تحليل التطبيقات وتطويرها، وأصمّم حلولًا موثوقة ومتوافقة مع الهاتف، من قاعدة البيانات والواجهات البرمجية حتى واجهة المستخدم.",
       "about.p2": "كما أرافق الأفراد والتجار في استيراد البضائع من الصين: البحث عن الموردين، والتفاوض، ومراقبة الجودة، ومتابعة الشحن حتى التسليم.",
       "about.locationLabel": "المقر",
-      "about.location": "أغوي-زونغو، لومي — توغو",
+      "about.location": "أغوي-زونغو، لومي, توغو",
       "about.langsLabel": "اللغات",
       "about.langs": "الفرنسية (بطلاقة)، الإنجليزية (تقنية)",
       "about.workLabel": "العمل",
@@ -193,7 +193,7 @@ window.SITE = {
     },
 
     zh: {
-      "meta.title": "Hamadou Abdourazak — 个人作品集",
+      "meta.title": "Hamadou Abdourazak | 个人作品集",
       "nav.skip": "跳到正文",
       "nav.about": "关于我",
       "nav.services": "服务",
@@ -368,7 +368,7 @@ window.SITE = {
   // Champs : title, text, tags, points (liste), image, demo, code, wide (carte pleine largeur)
   projects: [
     {
-      title: { fr: "SaaSIB — Plateforme multiservice", en: "SaaSIB — Multi-service platform", ar: "SaaSIB — منصة متعددة الخدمات", zh: "SaaSIB — 综合服务平台" },
+      title: { fr: "SaaSIB : Plateforme multiservice", en: "SaaSIB: Multi-service platform", ar: "SaaSIB: منصة متعددة الخدمات", zh: "SaaSIB：综合服务平台" },
       text: {
         fr: "Stage professionnel : participation à l'évolution et à l'amélioration de cette plateforme qui réunit formations professionnelles certifiantes, catalogue immobilier et boutique en ligne avec vendeurs vérifiés et paiement en FCFA.",
         en: "Professional internship: helped evolve and improve this platform, which brings together certified professional training, a real-estate catalogue and an online shop with verified sellers and FCFA payments.",
@@ -379,7 +379,7 @@ window.SITE = {
       demo: "https://saasib.com"
     },
     {
-      title: { fr: "Vivre O TGO — Tout le Togo dans votre poche", en: "Vivre O TGO — All of Togo in your pocket", ar: "Vivre O TGO — كل توغو في جيبك", zh: "Vivre O TGO — 口袋里的多哥" },
+      title: { fr: "Vivre O TGO : Tout le Togo dans votre poche", en: "Vivre O TGO: All of Togo in your pocket", ar: "Vivre O TGO: كل توغو في جيبك", zh: "Vivre O TGO：口袋里的多哥" },
       text: {
         fr: "Application mobile multiservices pour le quotidien des Togolais, conçue lors de mon stage de fin d'études chez ROOK-IT et présentée en soutenance de licence. Pharmacies de garde géolocalisées sur carte, lignes de bus avec horaires et estimation d'arrivée (prototype), numéros d'urgence, mode hors-ligne, notifications et back-office d'administration.",
         en: "A multi-service mobile app for everyday life in Togo, designed during my final-year internship at ROOK-IT and presented for my bachelor's defence. On-duty pharmacies on a live map, bus lines with timetables and arrival estimates (prototype), emergency numbers, offline mode, notifications and an admin back-office.",
@@ -389,7 +389,7 @@ window.SITE = {
       tags: ["Flutter", "Dart", "Firebase", "Riverpod", "OpenStreetMap", "GPS"]
     },
     {
-      title: { fr: "Studio Galaxy 7 — Gestion de matériel audiovisuel", en: "Studio Galaxy 7 — Audiovisual equipment management", ar: "Studio Galaxy 7 — إدارة المعدات السمعية البصرية", zh: "Studio Galaxy 7 — 影音设备管理系统" },
+      title: { fr: "Studio Galaxy 7 : Gestion de matériel audiovisuel", en: "Studio Galaxy 7: Audiovisual equipment management", ar: "Studio Galaxy 7: إدارة المعدات السمعية البصرية", zh: "Studio Galaxy 7：影音设备管理系统" },
       text: {
         fr: "Système complet pour un studio audiovisuel : location, vente, tournages, achats et emprunts de matériel. API REST sécurisée (JWT, rôles Admin, Secrétaire, Logistique), application de bureau Flutter, site vitrine avec demande client, tableau de bord, alertes, reçus PDF et export CSV. Plus de 450 tests automatisés.",
         en: "A complete system for an audiovisual studio: equipment rental, sales, shoots, purchases and loans. Secure REST API (JWT, Admin / Secretary / Logistics roles), Flutter desktop app, showcase website with client requests, dashboard, alerts, PDF receipts and CSV export. Over 450 automated tests.",
@@ -399,7 +399,7 @@ window.SITE = {
       tags: ["Spring Boot", "Java", "PostgreSQL", "Flutter", "Django", "Docker"]
     },
     {
-      title: { fr: "Goul Community — Communautés universitaires", en: "Goul Community — University communities", ar: "Goul Community — المجتمعات الجامعية", zh: "Goul Community — 高校社区平台" },
+      title: { fr: "Goul Community : Communautés universitaires", en: "Goul Community: University communities", ar: "Goul Community: المجتمعات الجامعية", zh: "Goul Community：高校社区平台" },
       text: {
         fr: "Plateforme mobile des communautés universitaires du Togo : annuaire des universités avec fiches détaillées, fil d'actualité du campus, clubs étudiants et profils d'étudiants.",
         en: "A mobile platform for Togo's university communities: university directory with detailed pages, campus news feed, student clubs and student profiles.",
@@ -414,44 +414,44 @@ window.SITE = {
       title: { fr: "Autres projets académiques", en: "Other academic projects", ar: "مشاريع أكاديمية أخرى", zh: "其他学术项目" },
       points: {
         fr: [
-          "Plateforme intelligente de gestion de bons — React, Node.js, Prisma, PostgreSQL",
-          "Plateforme de tutorat entre étudiants et tuteurs — MERN",
-          "Évaluation des enseignants — React, Node.js, MySQL",
-          "Gestion d'hôtel — JavaScript, Node.js",
-          "Location de cassettes — Java EE, JavaFX",
+          "Plateforme intelligente de gestion de bons (React, Node.js, Prisma, PostgreSQL)",
+          "Plateforme de tutorat entre étudiants et tuteurs (MERN)",
+          "Évaluation des enseignants (React, Node.js, MySQL)",
+          "Gestion d'hôtel (JavaScript, Node.js)",
+          "Location de cassettes (Java EE, JavaFX)",
           "Application Android de gestion des mesures",
-          "Site e-commerce — HTML, CSS, JavaScript",
-          "Conception de système d'information — Merise, UML"
+          "Site e-commerce (HTML, CSS, JavaScript)",
+          "Conception de système d'information (Merise, UML)"
         ],
         en: [
-          "Smart voucher management platform — React, Node.js, Prisma, PostgreSQL",
-          "Student–tutor tutoring platform — MERN",
-          "Teacher evaluation system — React, Node.js, MySQL",
-          "Hotel management — JavaScript, Node.js",
-          "Cassette rental — Java EE, JavaFX",
+          "Smart voucher management platform (React, Node.js, Prisma, PostgreSQL)",
+          "Student-tutor tutoring platform (MERN)",
+          "Teacher evaluation system (React, Node.js, MySQL)",
+          "Hotel management (JavaScript, Node.js)",
+          "Cassette rental (Java EE, JavaFX)",
           "Android app for managing measurements",
-          "E-commerce website — HTML, CSS, JavaScript",
-          "Information system design — Merise, UML"
+          "E-commerce website (HTML, CSS, JavaScript)",
+          "Information system design (Merise, UML)"
         ],
         ar: [
-          "منصة ذكية لتسيير القسائم — React، Node.js، Prisma، PostgreSQL",
-          "منصة للدروس الخصوصية بين الطلاب والمؤطّرين — MERN",
-          "تقييم الأساتذة — React، Node.js، MySQL",
-          "تسيير فندق — JavaScript، Node.js",
-          "كراء الأشرطة — Java EE، JavaFX",
+          "منصة ذكية لتسيير القسائم (React، Node.js، Prisma، PostgreSQL)",
+          "منصة للدروس الخصوصية بين الطلاب والمؤطّرين (MERN)",
+          "تقييم الأساتذة (React، Node.js، MySQL)",
+          "تسيير فندق (JavaScript، Node.js)",
+          "كراء الأشرطة (Java EE، JavaFX)",
           "تطبيق Android لتسيير القياسات",
-          "موقع تجارة إلكترونية — HTML، CSS، JavaScript",
-          "تصميم نظام معلومات — Merise، UML"
+          "موقع تجارة إلكترونية (HTML، CSS، JavaScript)",
+          "تصميم نظام معلومات (Merise، UML)"
         ],
         zh: [
-          "智能票券管理平台 — React、Node.js、Prisma、PostgreSQL",
-          "学生与导师辅导平台 — MERN",
-          "教师评价系统 — React、Node.js、MySQL",
-          "酒店管理系统 — JavaScript、Node.js",
-          "录像带租赁系统 — Java EE、JavaFX",
+          "智能票券管理平台（React、Node.js、Prisma、PostgreSQL）",
+          "学生与导师辅导平台（MERN）",
+          "教师评价系统（React、Node.js、MySQL）",
+          "酒店管理系统（JavaScript、Node.js）",
+          "录像带租赁系统（Java EE、JavaFX）",
           "测量数据管理 Android 应用",
-          "电商网站 — HTML、CSS、JavaScript",
-          "信息系统设计 — Merise、UML"
+          "电商网站（HTML、CSS、JavaScript）",
+          "信息系统设计（Merise、UML）"
         ]
       }
     }
@@ -464,7 +464,7 @@ window.SITE = {
       group: "work",
       date: { fr: "Stage de fin d'études", en: "Final-year internship", ar: "تدريب نهاية الدراسة", zh: "毕业实习" },
       title: { fr: "Stagiaire en développement mobile & web", en: "Mobile & web development intern", ar: "متدرّب في تطوير الجوال والويب", zh: "移动与网页开发实习生" },
-      place: { fr: "ROOK-IT — Lomé", en: "ROOK-IT — Lomé", ar: "ROOK-IT — لومي", zh: "ROOK-IT — 洛美" },
+      place: { fr: "ROOK-IT, Lomé", en: "ROOK-IT, Lomé", ar: "ROOK-IT, لومي", zh: "ROOK-IT, 洛美" },
       text: {
         fr: "Conception de « Vivre O TGO », application mobile multiservices pour le quotidien des Togolais.",
         en: "Designed \"Vivre O TGO\", a multi-service mobile app for everyday life in Togo.",
@@ -498,9 +498,9 @@ window.SITE = {
     },
     {
       group: "edu",
-      date: "2023 — 2026",
-      title: { fr: "Licence en informatique — mention Très bien (17,5/20)", en: "Bachelor's in Computer Science — highest honours (17.5/20)", ar: "إجازة في المعلوميات — ميزة حسن جدًا (17.5/20)", zh: "计算机科学学士 — 优秀（17.5/20）" },
-      place: { fr: "ESGIS Togo — Lomé", en: "ESGIS Togo — Lomé", ar: "ESGIS توغو — لومي", zh: "ESGIS 多哥 — 洛美" },
+      date: "2023-2026",
+      title: { fr: "Licence en informatique : mention Très bien (17,5/20)", en: "Bachelor's in Computer Science: highest honours (17.5/20)", ar: "إجازة في المعلوميات: ميزة حسن جدًا (17.5/20)", zh: "计算机科学学士：优秀（17.5/20）" },
+      place: { fr: "ESGIS Togo, Lomé", en: "ESGIS Togo, Lomé", ar: "ESGIS توغو, لومي", zh: "ESGIS 多哥, 洛美" },
       text: {
         fr: "Analyse et développement d'applications, systèmes bancaires et solutions digitales, gestion de projet et innovation technologique.",
         en: "Application analysis and development, banking systems and digital solutions, project management and technological innovation.",
@@ -511,7 +511,7 @@ window.SITE = {
     {
       group: "edu",
       date: "2026",
-      title: { fr: "Certified Linux Foundations (CLF) — en cours, examen prévu", en: "Certified Linux Foundations (CLF) — in progress, exam scheduled", ar: "Certified Linux Foundations (CLF) — قيد التحضير، الامتحان مبرمج", zh: "Certified Linux Foundations (CLF) — 备考中" },
+      title: { fr: "Certified Linux Foundations (CLF) : en cours, examen prévu", en: "Certified Linux Foundations (CLF): in progress, exam scheduled", ar: "Certified Linux Foundations (CLF): قيد التحضير، الامتحان مبرمج", zh: "Certified Linux Foundations (CLF)：备考中" },
       place: { fr: "PECB", en: "PECB", ar: "PECB", zh: "PECB" }
     },
     {
@@ -524,7 +524,7 @@ window.SITE = {
       group: "edu",
       date: { fr: "2 mois", en: "2 months", ar: "شهران", zh: "2 个月" },
       title: { fr: "Certification en administration réseau", en: "Network administration certification", ar: "شهادة في إدارة الشبكات", zh: "网络管理证书" },
-      place: { fr: "PSM — Lomé", en: "PSM — Lomé", ar: "PSM — لومي", zh: "PSM — 洛美" }
+      place: { fr: "PSM, Lomé", en: "PSM, Lomé", ar: "PSM, لومي", zh: "PSM, 洛美" }
     }
   ]
 };
