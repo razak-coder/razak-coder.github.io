@@ -27,7 +27,7 @@ window.SITE = {
       "hero.status": "Disponible pour de nouveaux projets",
       "hero.hello": "Bonjour, je suis",
       "hero.role": "Développeur web & mobile · Import depuis la Chine",
-      "hero.lead": "Étudiant en licence d'informatique à ESGIS Togo, je conçois des sites et des applications web et mobiles, et j'accompagne particuliers et entreprises dans l'importation de marchandises depuis la Chine.",
+      "hero.lead": "Diplômé d'une licence en informatique (mention Très bien) d'ESGIS Togo, je conçois des sites et des applications web et mobiles, et j'accompagne particuliers et entreprises dans l'importation de marchandises depuis la Chine.",
       "hero.cta": "Me contacter",
       "hero.cv": "Télécharger mon CV",
       "about.kicker": "À propos",
@@ -87,7 +87,7 @@ window.SITE = {
       "hero.status": "Available for new projects",
       "hero.hello": "Hi, I'm",
       "hero.role": "Web & mobile developer · Import from China",
-      "hero.lead": "Computer science student at ESGIS Togo, I build websites and web and mobile apps, and I help individuals and businesses import goods from China.",
+      "hero.lead": "Holder of a Bachelor's in Computer Science with highest honours from ESGIS Togo, I build websites and web and mobile apps, and I help individuals and businesses import goods from China.",
       "hero.cta": "Contact me",
       "hero.cv": "Download my CV",
       "about.kicker": "About",
@@ -147,7 +147,7 @@ window.SITE = {
       "hero.status": "متاح لمشاريع جديدة",
       "hero.hello": "مرحبًا، أنا",
       "hero.role": "مطوّر ويب وتطبيقات جوال · الاستيراد من الصين",
-      "hero.lead": "طالب إجازة في المعلوميات بمدرسة ESGIS توغو، أصمّم مواقع وتطبيقات ويب وجوال، وأرافق الأفراد والشركات في استيراد البضائع من الصين.",
+      "hero.lead": "حاصل على إجازة في المعلوميات بميزة حسن جدًا من مدرسة ESGIS توغو، أصمّم مواقع وتطبيقات ويب وجوال، وأرافق الأفراد والشركات في استيراد البضائع من الصين.",
       "hero.cta": "تواصل معي",
       "hero.cv": "تحميل سيرتي الذاتية",
       "about.kicker": "من أنا",
@@ -207,7 +207,7 @@ window.SITE = {
       "hero.status": "可承接新项目",
       "hero.hello": "你好，我是",
       "hero.role": "网页与移动开发者 · 中国进口代理",
-      "hero.lead": "我是多哥 ESGIS 学院计算机专业的本科生，开发网站以及网页和移动应用，并帮助个人和企业从中国进口商品。",
+      "hero.lead": "我以优异成绩毕业于多哥 ESGIS 学院计算机专业（学士），开发网站以及网页和移动应用，并帮助个人和企业从中国进口商品。",
       "hero.cta": "联系我",
       "hero.cv": "下载我的简历",
       "about.kicker": "关于我",
@@ -381,10 +381,10 @@ window.SITE = {
     {
       title: { fr: "Vivre O TGO — Tout le Togo dans votre poche", en: "Vivre O TGO — All of Togo in your pocket", ar: "Vivre O TGO — كل توغو في جيبك", zh: "Vivre O TGO — 口袋里的多哥" },
       text: {
-        fr: "Application mobile multiservices pour le quotidien des Togolais, conçue lors de mon stage de fin d'études chez ROOK-IT. Pharmacies de garde géolocalisées sur carte, lignes de bus avec horaires et estimation d'arrivée (prototype), numéros d'urgence, mode hors-ligne, notifications et back-office d'administration.",
-        en: "A multi-service mobile app for everyday life in Togo, designed during my final-year internship at ROOK-IT. On-duty pharmacies on a live map, bus lines with timetables and arrival estimates (prototype), emergency numbers, offline mode, notifications and an admin back-office.",
-        ar: "تطبيق جوال متعدد الخدمات للحياة اليومية في توغو، صُمّم خلال تدريب نهاية الدراسة في شركة ROOK-IT. صيدليات المناوبة على خريطة حسب الموقع، خطوط الحافلات مع المواعيد وتقدير وقت الوصول (نموذج أولي)، أرقام الطوارئ، وضع دون اتصال، إشعارات ولوحة إدارة.",
-        zh: "为多哥日常生活打造的综合移动应用，在 ROOK-IT 毕业实习期间设计开发。在地图上查找值班药店，公交线路时刻表及到站预估（原型），紧急电话，离线模式，通知推送以及后台管理系统。"
+        fr: "Application mobile multiservices pour le quotidien des Togolais, conçue lors de mon stage de fin d'études chez ROOK-IT et présentée en soutenance de licence. Pharmacies de garde géolocalisées sur carte, lignes de bus avec horaires et estimation d'arrivée (prototype), numéros d'urgence, mode hors-ligne, notifications et back-office d'administration.",
+        en: "A multi-service mobile app for everyday life in Togo, designed during my final-year internship at ROOK-IT and presented for my bachelor's defence. On-duty pharmacies on a live map, bus lines with timetables and arrival estimates (prototype), emergency numbers, offline mode, notifications and an admin back-office.",
+        ar: "تطبيق جوال متعدد الخدمات للحياة اليومية في توغو، صُمّم خلال تدريب نهاية الدراسة في شركة ROOK-IT وقُدّم في مناقشة الإجازة. صيدليات المناوبة على خريطة حسب الموقع، خطوط الحافلات مع المواعيد وتقدير وقت الوصول (نموذج أولي)، أرقام الطوارئ، وضع دون اتصال، إشعارات ولوحة إدارة.",
+        zh: "为多哥日常生活打造的综合移动应用，在 ROOK-IT 毕业实习期间设计开发，并作为学士毕业答辩项目。在地图上查找值班药店，公交线路时刻表及到站预估（原型），紧急电话，离线模式，通知推送以及后台管理系统。"
       },
       tags: ["Flutter", "Dart", "Firebase", "Riverpod", "OpenStreetMap", "GPS"]
     },
@@ -499,7 +499,7 @@ window.SITE = {
     {
       group: "edu",
       date: "2023 — 2026",
-      title: { fr: "Licence en informatique (en cours)", en: "Bachelor's in Computer Science (in progress)", ar: "إجازة في المعلوميات (قيد الدراسة)", zh: "计算机科学学士（在读）" },
+      title: { fr: "Licence en informatique — mention Très bien (17,5/20)", en: "Bachelor's in Computer Science — highest honours (17.5/20)", ar: "إجازة في المعلوميات — ميزة حسن جدًا (17.5/20)", zh: "计算机科学学士 — 优秀（17.5/20）" },
       place: { fr: "ESGIS Togo — Lomé", en: "ESGIS Togo — Lomé", ar: "ESGIS توغو — لومي", zh: "ESGIS 多哥 — 洛美" },
       text: {
         fr: "Analyse et développement d'applications, systèmes bancaires et solutions digitales, gestion de projet et innovation technologique.",
