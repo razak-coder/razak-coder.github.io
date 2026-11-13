@@ -26,19 +26,20 @@ window.SITE = {
       "ui.menu": "Menu",
       "hero.status": "Disponible pour de nouveaux projets",
       "hero.hello": "Bonjour, je suis",
-      "hero.role": "Développeur web & spécialiste de l'import depuis la Chine",
-      "hero.lead": "Je crée des sites et applications web modernes, et j'accompagne particuliers et entreprises dans l'achat et l'importation de marchandises depuis la Chine.",
+      "hero.role": "Développeur web & mobile · Import depuis la Chine",
+      "hero.lead": "Étudiant en licence d'informatique à ESGIS Togo, je conçois des sites et des applications web et mobiles, et j'accompagne particuliers et entreprises dans l'importation de marchandises depuis la Chine.",
       "hero.cta": "Me contacter",
       "hero.cv": "Télécharger mon CV",
       "about.kicker": "À propos",
       "about.title": "Un partenaire fiable, du digital à la logistique",
-      "about.p1": "Je suis Hamadou Abdourazak, développeur web passionné. Je conçois des sites rapides, élégants et adaptés au mobile, pensés pour aider mes clients à se faire connaître et à vendre.",
+      "about.p1": "Je suis Hamadou Abdourazak, développeur web et mobile basé à Lomé. Formé à l'analyse et au développement d'applications, je conçois des solutions fiables et adaptées au mobile, de la base de données jusqu'à l'interface, en passant par les API.",
       "about.p2": "En parallèle, j'accompagne particuliers et commerçants dans l'importation de marchandises depuis la Chine : recherche de fournisseurs, négociation, contrôle et suivi de l'expédition jusqu'à la livraison.",
       "about.locationLabel": "Basé à",
-      "about.location": "Lomé, Togo",
+      "about.location": "Agoè-Zongo, Lomé — Togo",
       "about.langsLabel": "Langues",
-      "about.langs": "Français, Anglais",
+      "about.langs": "Français (courant), Anglais (technique)",
       "about.workLabel": "Travail",
+      "about.qualities": "Qualités",
       "about.work": "Freelance, à distance ou sur place",
       "services.kicker": "Services",
       "services.title": "Ce que je peux faire pour vous",
@@ -49,7 +50,10 @@ window.SITE = {
       "projects.demo": "Voir le projet",
       "projects.code": "Code source",
       "journey.kicker": "Parcours",
-      "journey.title": "Expériences et formation",
+      "journey.work": "Expériences",
+      "journey.edu": "Formation & certifications",
+      "skills.learning": "En apprentissage :",
+      "journey.title": "Expériences, formation et certifications",
       "contact.kicker": "Contact",
       "contact.title": "Parlons de votre projet",
       "contact.lead": "Un site à créer, une commande à importer de Chine ou une simple question ? Écrivez-moi, je réponds rapidement.",
@@ -82,19 +86,20 @@ window.SITE = {
       "ui.menu": "Menu",
       "hero.status": "Available for new projects",
       "hero.hello": "Hi, I'm",
-      "hero.role": "Web developer & China import specialist",
-      "hero.lead": "I build modern websites and web apps, and I help individuals and businesses source and import goods from China.",
+      "hero.role": "Web & mobile developer · Import from China",
+      "hero.lead": "Computer science student at ESGIS Togo, I build websites and web and mobile apps, and I help individuals and businesses import goods from China.",
       "hero.cta": "Contact me",
       "hero.cv": "Download my CV",
       "about.kicker": "About",
       "about.title": "A reliable partner, from digital to logistics",
-      "about.p1": "I'm Hamadou Abdourazak, a passionate web developer. I design fast, elegant, mobile-friendly websites that help my clients get noticed and sell.",
+      "about.p1": "I'm Hamadou Abdourazak, a web and mobile developer based in Lomé. Trained in application analysis and development, I build reliable, mobile-friendly solutions, from the database and APIs to the interface.",
       "about.p2": "I also help individuals and traders import goods from China: finding suppliers, negotiating, checking quality and tracking shipments all the way to delivery.",
       "about.locationLabel": "Based in",
-      "about.location": "Lomé, Togo",
+      "about.location": "Agoè-Zongo, Lomé — Togo",
       "about.langsLabel": "Languages",
-      "about.langs": "French, English",
+      "about.langs": "French (fluent), English (technical)",
       "about.workLabel": "Work",
+      "about.qualities": "Strengths",
       "about.work": "Freelance, remote or on-site",
       "services.kicker": "Services",
       "services.title": "What I can do for you",
@@ -105,7 +110,10 @@ window.SITE = {
       "projects.demo": "View project",
       "projects.code": "Source code",
       "journey.kicker": "Journey",
-      "journey.title": "Experience and education",
+      "journey.work": "Experience",
+      "journey.edu": "Education & certifications",
+      "skills.learning": "Currently learning:",
+      "journey.title": "Experience, education and certifications",
       "contact.kicker": "Contact",
       "contact.title": "Let's talk about your project",
       "contact.lead": "A website to build, an order to import from China, or just a question? Write to me — I reply quickly.",
@@ -138,19 +146,20 @@ window.SITE = {
       "ui.menu": "القائمة",
       "hero.status": "متاح لمشاريع جديدة",
       "hero.hello": "مرحبًا، أنا",
-      "hero.role": "مطوّر مواقع ويب ومتخصص في الاستيراد من الصين",
-      "hero.lead": "أصمّم مواقع وتطبيقات ويب حديثة، وأرافق الأفراد والشركات في شراء البضائع واستيرادها من الصين.",
+      "hero.role": "مطوّر ويب وتطبيقات جوال · الاستيراد من الصين",
+      "hero.lead": "طالب إجازة في المعلوميات بمدرسة ESGIS توغو، أصمّم مواقع وتطبيقات ويب وجوال، وأرافق الأفراد والشركات في استيراد البضائع من الصين.",
       "hero.cta": "تواصل معي",
       "hero.cv": "تحميل سيرتي الذاتية",
       "about.kicker": "من أنا",
       "about.title": "شريك موثوق، من الرقمنة إلى الخدمات اللوجستية",
-      "about.p1": "أنا حمادو عبد الرزاق، مطوّر ويب شغوف. أصمّم مواقع سريعة وأنيقة ومتوافقة مع الهاتف، تساعد عملائي على التعريف بأنفسهم وزيادة مبيعاتهم.",
+      "about.p1": "أنا حمادو عبد الرزاق، مطوّر ويب وتطبيقات جوال مقيم في لومي. تكوّنت في تحليل التطبيقات وتطويرها، وأصمّم حلولًا موثوقة ومتوافقة مع الهاتف، من قاعدة البيانات والواجهات البرمجية حتى واجهة المستخدم.",
       "about.p2": "كما أرافق الأفراد والتجار في استيراد البضائع من الصين: البحث عن الموردين، والتفاوض، ومراقبة الجودة، ومتابعة الشحن حتى التسليم.",
       "about.locationLabel": "المقر",
-      "about.location": "لومي، توغو",
+      "about.location": "أغوي-زونغو، لومي — توغو",
       "about.langsLabel": "اللغات",
-      "about.langs": "الفرنسية، الإنجليزية",
+      "about.langs": "الفرنسية (بطلاقة)، الإنجليزية (تقنية)",
       "about.workLabel": "العمل",
+      "about.qualities": "صفاتي",
       "about.work": "مستقل، عن بُعد أو حضوريًا",
       "services.kicker": "الخدمات",
       "services.title": "ما يمكنني تقديمه لك",
@@ -161,7 +170,10 @@ window.SITE = {
       "projects.demo": "عرض المشروع",
       "projects.code": "الشيفرة المصدرية",
       "journey.kicker": "المسيرة",
-      "journey.title": "الخبرات والتكوين",
+      "journey.work": "الخبرات",
+      "journey.edu": "التكوين والشهادات",
+      "skills.learning": "قيد التعلّم:",
+      "journey.title": "الخبرات والتكوين والشهادات",
       "contact.kicker": "تواصل",
       "contact.title": "لنتحدث عن مشروعك",
       "contact.lead": "موقع تريد إنشاءه، أو طلبية تريد استيرادها من الصين، أو مجرد سؤال؟ راسلني وسأرد بسرعة.",
@@ -194,19 +206,20 @@ window.SITE = {
       "ui.menu": "菜单",
       "hero.status": "可承接新项目",
       "hero.hello": "你好，我是",
-      "hero.role": "网页开发者 & 中国进口专家",
-      "hero.lead": "我开发现代化的网站和网页应用，并帮助个人和企业从中国采购和进口商品。",
+      "hero.role": "网页与移动开发者 · 中国进口代理",
+      "hero.lead": "我是多哥 ESGIS 学院计算机专业的本科生，开发网站以及网页和移动应用，并帮助个人和企业从中国进口商品。",
       "hero.cta": "联系我",
       "hero.cv": "下载我的简历",
       "about.kicker": "关于我",
       "about.title": "从数字化到物流，值得信赖的合作伙伴",
-      "about.p1": "我是 Hamadou Abdourazak，一名热爱网页开发的开发者。我设计快速、美观、适配手机的网站，帮助客户提升知名度并促进销售。",
+      "about.p1": "我是 Hamadou Abdourazak，常驻洛美的网页与移动开发者。我接受过应用分析与开发的专业训练，能够从数据库、API 到用户界面，打造可靠且适配手机的解决方案。",
       "about.p2": "同时，我协助个人和商家从中国进口商品：寻找供应商、谈判、质量检查，并全程跟踪物流直至交付。",
       "about.locationLabel": "所在地",
-      "about.location": "多哥 洛美",
+      "about.location": "多哥 洛美 Agoè-Zongo",
       "about.langsLabel": "语言",
-      "about.langs": "法语、英语",
+      "about.langs": "法语（流利）、英语（技术）",
       "about.workLabel": "工作方式",
+      "about.qualities": "个人优势",
       "about.work": "自由职业，远程或现场",
       "services.kicker": "服务",
       "services.title": "我能为您做什么",
@@ -217,7 +230,10 @@ window.SITE = {
       "projects.demo": "查看项目",
       "projects.code": "源代码",
       "journey.kicker": "经历",
-      "journey.title": "工作经历与教育",
+      "journey.work": "工作经历",
+      "journey.edu": "教育与证书",
+      "skills.learning": "正在学习：",
+      "journey.title": "工作经历、教育与证书",
       "contact.kicker": "联系",
       "contact.title": "聊聊您的项目",
       "contact.lead": "想建网站、从中国进口货物，或者只是有个问题？欢迎联系我，我会尽快回复。",
@@ -241,18 +257,18 @@ window.SITE = {
   services: [
     {
       icon: "code",
-      title: { fr: "Développement web", en: "Web development", ar: "تطوير مواقع الويب", zh: "网页开发" },
+      title: { fr: "Développement web & mobile", en: "Web & mobile development", ar: "تطوير الويب والجوال", zh: "网页与移动开发" },
       text: {
-        fr: "Des sites modernes, rapides et adaptés au mobile pour présenter votre activité et vendre en ligne.",
-        en: "Modern, fast, mobile-friendly websites to showcase your business and sell online.",
-        ar: "مواقع حديثة وسريعة ومتوافقة مع الهاتف لعرض نشاطك والبيع عبر الإنترنت.",
-        zh: "现代、快速、适配手机的网站，用于展示您的业务并在线销售。"
+        fr: "Des sites et applications modernes, rapides et adaptés au mobile pour présenter votre activité, gérer votre entreprise et vendre en ligne.",
+        en: "Modern, fast, mobile-friendly websites and apps to showcase your business, run your operations and sell online.",
+        ar: "مواقع وتطبيقات حديثة وسريعة ومتوافقة مع الهاتف لعرض نشاطك وإدارة مؤسستك والبيع عبر الإنترنت.",
+        zh: "现代、快速、适配手机的网站和应用，用于展示业务、管理企业和在线销售。"
       },
       points: {
-        fr: ["Sites vitrines et portfolios", "Boutiques en ligne", "Applications web sur mesure", "Maintenance et améliorations"],
-        en: ["Business sites and portfolios", "Online stores", "Custom web applications", "Maintenance and improvements"],
-        ar: ["مواقع تعريفية ومعارض أعمال", "متاجر إلكترونية", "تطبيقات ويب حسب الطلب", "الصيانة والتحسين"],
-        zh: ["企业官网与作品集", "网上商店", "定制网页应用", "维护与优化"]
+        fr: ["Sites vitrines, e-commerce et WordPress", "Applications web (Laravel, React, Node.js)", "Applications mobiles (Flutter, Kotlin)", "API REST et bases de données"],
+        en: ["Business sites, e-commerce and WordPress", "Web apps (Laravel, React, Node.js)", "Mobile apps (Flutter, Kotlin)", "REST APIs and databases"],
+        ar: ["مواقع تعريفية ومتاجر إلكترونية وووردبريس", "تطبيقات ويب (Laravel، React، Node.js)", "تطبيقات جوال (Flutter، Kotlin)", "واجهات REST وقواعد البيانات"],
+        zh: ["企业官网、电商网站与 WordPress", "网页应用（Laravel、React、Node.js）", "移动应用（Flutter、Kotlin）", "REST API 与数据库"]
       }
     },
     {
@@ -270,41 +286,245 @@ window.SITE = {
         ar: ["البحث عن موردين موثوقين", "التفاوض على الأسعار", "فحص المنتجات", "متابعة الشحن والتسليم"],
         zh: ["寻找可靠供应商", "价格谈判", "产品检验", "物流与交付跟踪"]
       }
+    },
+    {
+      icon: "users",
+      title: { fr: "Formation en informatique", en: "IT training", ar: "التكوين في المعلوميات", zh: "计算机培训" },
+      text: {
+        fr: "J'anime des sessions de formation en informatique, claires et pratiques, adaptées au niveau de chacun.",
+        en: "I run clear, hands-on IT training sessions adapted to each learner's level.",
+        ar: "أنشّط دورات تكوينية في المعلوميات، واضحة وتطبيقية، تتلاءم مع مستوى كل متعلّم.",
+        zh: "我主持清晰实用的计算机培训课程，根据每位学员的水平量身调整。"
+      },
+      points: {
+        fr: ["Bases de l'informatique et des réseaux", "Initiation au développement web", "Outils de travail numériques", "Accompagnement personnalisé"],
+        en: ["Computer and networking basics", "Introduction to web development", "Digital work tools", "One-to-one support"],
+        ar: ["أساسيات المعلوميات والشبكات", "مدخل إلى تطوير الويب", "أدوات العمل الرقمية", "مرافقة شخصية"],
+        zh: ["计算机与网络基础", "网页开发入门", "数字办公工具", "一对一辅导"]
+      }
     }
   ],
 
-  // ---------- COMPÉTENCES (à remplir depuis le CV) ----------
-  // Exemple :
-  // { icon: "code", title: { fr: "Front-end", en: "Front-end", ar: "الواجهة الأمامية", zh: "前端" },
-  //   tags: ["HTML", "CSS", "JavaScript"] },
-  skills: [],
+  // ---------- QUALITÉS (section À propos) ----------
+  qualities: [
+    { fr: "Esprit d'équipe", en: "Team player", ar: "روح الفريق", zh: "团队合作" },
+    { fr: "Organisé et méthodique", en: "Organised and methodical", ar: "منظّم ومنهجي", zh: "有条理、讲方法" },
+    { fr: "Esprit d'initiative", en: "Initiative", ar: "روح المبادرة", zh: "积极主动" },
+    { fr: "Sens des responsabilités", en: "Sense of responsibility", ar: "حسّ المسؤولية", zh: "责任心强" },
+    { fr: "Qualités rédactionnelles", en: "Strong writing skills", ar: "مهارات تحريرية", zh: "文字表达能力" },
+    { fr: "Discrétion et confidentialité", en: "Discretion and confidentiality", ar: "الكتمان والسرية", zh: "严守保密" },
+    { fr: "Bon relationnel", en: "Strong people skills", ar: "حسن التواصل", zh: "善于沟通" }
+  ],
 
-  // ---------- PROJETS (à remplir depuis le CV) ----------
-  // Exemple :
-  // { title: { fr: "...", en: "...", ar: "...", zh: "..." },
-  //   text:  { fr: "...", en: "...", ar: "...", zh: "..." },
-  //   image: "assets/projets/mon-projet.jpg",   (facultatif)
-  //   tags: ["React", "Node.js"],
-  //   demo: "https://...", code: "https://github.com/..." },
+  // ---------- COMPÉTENCES ----------
+  skills: [
+    {
+      icon: "code",
+      title: { fr: "Langages", en: "Languages", ar: "لغات البرمجة", zh: "编程语言" },
+      tags: ["C", "C++", "Java", "Kotlin", "Python", "PHP", "JavaScript", "Dart", "XML"],
+      learning: "C#, ASP.NET MVC, .NET Core"
+    },
+    {
+      icon: "layers",
+      title: { fr: "Frameworks web & mobile", en: "Web & mobile frameworks", ar: "أطر الويب والجوال", zh: "网页与移动框架" },
+      tags: ["Laravel", "React", "Angular", "Node.js", "Prisma", "MERN", "Flutter", "Spring Boot", "Django", "JavaFX"]
+    },
+    {
+      icon: "box",
+      title: { fr: "Données & architecture", en: "Data & architecture", ar: "البيانات والهندسة", zh: "数据与架构" },
+      tags: ["PostgreSQL", "MySQL", "SQL Server", "Firebase", "API REST", "CRUD", "Merise / UML"]
+    },
+    {
+      icon: "chart",
+      title: { fr: "Réseaux & systèmes", en: "Networks & systems", ar: "الشبكات والأنظمة", zh: "网络与系统" },
+      tags: [
+        { fr: "Administration réseau", en: "Network administration", ar: "إدارة الشبكات", zh: "网络管理" },
+        "Cisco IT Essentials", "Linux", "Docker"
+      ]
+    },
+    {
+      icon: "tool",
+      title: { fr: "Outils & méthodes", en: "Tools & methods", ar: "الأدوات والمنهجيات", zh: "工具与方法" },
+      tags: [
+        "Git / GitHub", "VS Code", "IntelliJ IDEA", "Android Studio", "WordPress", "Figma", "Draw.io", "PowerAMC", "Notion", "Trello",
+        { fr: "Méthode Agile", en: "Agile", ar: "منهجية Agile", zh: "敏捷开发" },
+        { fr: "Intelligence artificielle", en: "Artificial intelligence", ar: "الذكاء الاصطناعي", zh: "人工智能" }
+      ]
+    },
+    {
+      icon: "ship",
+      title: { fr: "Import & gestion", en: "Import & management", ar: "الاستيراد والتسيير", zh: "进口与管理" },
+      tags: [
+        { fr: "Sourcing en Chine", en: "Sourcing in China", ar: "التوريد من الصين", zh: "中国采购" },
+        { fr: "Négociation", en: "Negotiation", ar: "التفاوض", zh: "商务谈判" },
+        { fr: "Contrôle qualité", en: "Quality control", ar: "مراقبة الجودة", zh: "质量检验" },
+        { fr: "Suivi logistique", en: "Shipment tracking", ar: "متابعة الشحن", zh: "物流跟踪" },
+        { fr: "Gestion des stocks", en: "Stock management", ar: "تسيير المخزون", zh: "库存管理" }
+      ]
+    }
+  ],
+
+  // ---------- PROJETS ----------
+  // Champs : title, text, tags, points (liste), image, demo, code, wide (carte pleine largeur)
   projects: [
     {
       title: { fr: "SaaSIB — Plateforme multiservice", en: "SaaSIB — Multi-service platform", ar: "SaaSIB — منصة متعددة الخدمات", zh: "SaaSIB — 综合服务平台" },
       text: {
-        fr: "Plateforme web qui réunit en un seul espace des formations professionnelles certifiantes, un catalogue immobilier et une boutique en ligne avec vendeurs vérifiés. Inscriptions en ligne, espace apprenant, paiement en FCFA et assistant de support.",
-        en: "A web platform bringing together certified professional training, a real-estate catalogue and an online shop with verified sellers. Online enrolment, learner area, FCFA payments and a support assistant.",
-        ar: "منصة ويب تجمع في مكان واحد دورات تدريبية مهنية معتمدة، وكتالوجًا عقاريًا، ومتجرًا إلكترونيًا بباعة موثوقين. تسجيل عبر الإنترنت، فضاء للمتعلم، الدفع بالفرنك الإفريقي ومساعد للدعم.",
-        zh: "一个综合网页平台，集专业认证培训、房地产目录和拥有认证卖家的网上商店于一体。支持在线报名、学员空间、西非法郎支付和客服助手。"
+        fr: "Stage professionnel : participation à l'évolution et à l'amélioration de cette plateforme qui réunit formations professionnelles certifiantes, catalogue immobilier et boutique en ligne avec vendeurs vérifiés et paiement en FCFA.",
+        en: "Professional internship: helped evolve and improve this platform, which brings together certified professional training, a real-estate catalogue and an online shop with verified sellers and FCFA payments.",
+        ar: "تدريب مهني: المساهمة في تطوير وتحسين هذه المنصة التي تجمع دورات تدريبية مهنية معتمدة، وكتالوجًا عقاريًا، ومتجرًا إلكترونيًا بباعة موثوقين والدفع بالفرنك الإفريقي.",
+        zh: "专业实习：参与该平台的迭代与优化。平台集专业认证培训、房地产目录和拥有认证卖家的网上商店于一体，支持西非法郎支付。"
       },
       tags: ["Web", "E-learning", "E-commerce"],
       demo: "https://saasib.com"
+    },
+    {
+      title: { fr: "Vivre O TGO — Tout le Togo dans votre poche", en: "Vivre O TGO — All of Togo in your pocket", ar: "Vivre O TGO — كل توغو في جيبك", zh: "Vivre O TGO — 口袋里的多哥" },
+      text: {
+        fr: "Application mobile multiservices pour le quotidien des Togolais, conçue lors de mon stage de fin d'études chez ROOK-IT. Pharmacies de garde géolocalisées sur carte, lignes de bus avec horaires et estimation d'arrivée (prototype), numéros d'urgence, mode hors-ligne, notifications et back-office d'administration.",
+        en: "A multi-service mobile app for everyday life in Togo, designed during my final-year internship at ROOK-IT. On-duty pharmacies on a live map, bus lines with timetables and arrival estimates (prototype), emergency numbers, offline mode, notifications and an admin back-office.",
+        ar: "تطبيق جوال متعدد الخدمات للحياة اليومية في توغو، صُمّم خلال تدريب نهاية الدراسة في شركة ROOK-IT. صيدليات المناوبة على خريطة حسب الموقع، خطوط الحافلات مع المواعيد وتقدير وقت الوصول (نموذج أولي)، أرقام الطوارئ، وضع دون اتصال، إشعارات ولوحة إدارة.",
+        zh: "为多哥日常生活打造的综合移动应用，在 ROOK-IT 毕业实习期间设计开发。在地图上查找值班药店，公交线路时刻表及到站预估（原型），紧急电话，离线模式，通知推送以及后台管理系统。"
+      },
+      tags: ["Flutter", "Dart", "Firebase", "Riverpod", "OpenStreetMap", "GPS"]
+    },
+    {
+      title: { fr: "Studio Galaxy 7 — Gestion de matériel audiovisuel", en: "Studio Galaxy 7 — Audiovisual equipment management", ar: "Studio Galaxy 7 — إدارة المعدات السمعية البصرية", zh: "Studio Galaxy 7 — 影音设备管理系统" },
+      text: {
+        fr: "Système complet pour un studio audiovisuel : location, vente, tournages, achats et emprunts de matériel. API REST sécurisée (JWT, rôles Admin, Secrétaire, Logistique), application de bureau Flutter, site vitrine avec demande client, tableau de bord, alertes, reçus PDF et export CSV. Plus de 450 tests automatisés.",
+        en: "A complete system for an audiovisual studio: equipment rental, sales, shoots, purchases and loans. Secure REST API (JWT, Admin / Secretary / Logistics roles), Flutter desktop app, showcase website with client requests, dashboard, alerts, PDF receipts and CSV export. Over 450 automated tests.",
+        ar: "نظام متكامل لاستوديو سمعي بصري: تأجير المعدات وبيعها والتصوير والمشتريات والإعارة. واجهة REST آمنة (JWT، أدوار المدير والسكرتيرة واللوجستيك)، تطبيق مكتبي بـ Flutter، موقع تعريفي لطلبات العملاء، لوحة تحكم، تنبيهات، إيصالات PDF وتصدير CSV. أكثر من 450 اختبارًا آليًا.",
+        zh: "为影音工作室打造的完整系统：设备租赁、销售、拍摄、采购与借用管理。安全的 REST API（JWT，管理员 / 秘书 / 物流角色），Flutter 桌面应用，带客户询价的展示网站，数据看板、提醒、PDF 收据和 CSV 导出。超过 450 个自动化测试。"
+      },
+      tags: ["Spring Boot", "Java", "PostgreSQL", "Flutter", "Django", "Docker"]
+    },
+    {
+      title: { fr: "Goul Community — Communautés universitaires", en: "Goul Community — University communities", ar: "Goul Community — المجتمعات الجامعية", zh: "Goul Community — 高校社区平台" },
+      text: {
+        fr: "Plateforme mobile des communautés universitaires du Togo : annuaire des universités avec fiches détaillées, fil d'actualité du campus, clubs étudiants et profils d'étudiants.",
+        en: "A mobile platform for Togo's university communities: university directory with detailed pages, campus news feed, student clubs and student profiles.",
+        ar: "منصة جوالة للمجتمعات الجامعية في توغو: دليل الجامعات مع صفحات مفصلة، آخر أخبار الحرم الجامعي، النوادي الطلابية وملفات الطلاب.",
+        zh: "面向多哥高校社区的移动平台：高校名录及详细介绍、校园动态、学生社团和学生个人主页。"
+      },
+      tags: ["Flutter", "Dart", "Firebase", "Riverpod"],
+      demo: "https://goulcommunity-tg.web.app"
+    },
+    {
+      wide: true,
+      title: { fr: "Autres projets académiques", en: "Other academic projects", ar: "مشاريع أكاديمية أخرى", zh: "其他学术项目" },
+      points: {
+        fr: [
+          "Plateforme intelligente de gestion de bons — React, Node.js, Prisma, PostgreSQL",
+          "Plateforme de tutorat entre étudiants et tuteurs — MERN",
+          "Évaluation des enseignants — React, Node.js, MySQL",
+          "Gestion d'hôtel — JavaScript, Node.js",
+          "Location de cassettes — Java EE, JavaFX",
+          "Application Android de gestion des mesures",
+          "Site e-commerce — HTML, CSS, JavaScript",
+          "Conception de système d'information — Merise, UML"
+        ],
+        en: [
+          "Smart voucher management platform — React, Node.js, Prisma, PostgreSQL",
+          "Student–tutor tutoring platform — MERN",
+          "Teacher evaluation system — React, Node.js, MySQL",
+          "Hotel management — JavaScript, Node.js",
+          "Cassette rental — Java EE, JavaFX",
+          "Android app for managing measurements",
+          "E-commerce website — HTML, CSS, JavaScript",
+          "Information system design — Merise, UML"
+        ],
+        ar: [
+          "منصة ذكية لتسيير القسائم — React، Node.js، Prisma، PostgreSQL",
+          "منصة للدروس الخصوصية بين الطلاب والمؤطّرين — MERN",
+          "تقييم الأساتذة — React، Node.js، MySQL",
+          "تسيير فندق — JavaScript، Node.js",
+          "كراء الأشرطة — Java EE، JavaFX",
+          "تطبيق Android لتسيير القياسات",
+          "موقع تجارة إلكترونية — HTML، CSS، JavaScript",
+          "تصميم نظام معلومات — Merise، UML"
+        ],
+        zh: [
+          "智能票券管理平台 — React、Node.js、Prisma、PostgreSQL",
+          "学生与导师辅导平台 — MERN",
+          "教师评价系统 — React、Node.js、MySQL",
+          "酒店管理系统 — JavaScript、Node.js",
+          "录像带租赁系统 — Java EE、JavaFX",
+          "测量数据管理 Android 应用",
+          "电商网站 — HTML、CSS、JavaScript",
+          "信息系统设计 — Merise、UML"
+        ]
+      }
     }
   ],
 
-  // ---------- PARCOURS (à remplir depuis le CV) ----------
-  // Exemple :
-  // { date: "2023 — 2025",
-  //   title: { fr: "...", en: "...", ar: "...", zh: "..." },
-  //   place: { fr: "...", en: "...", ar: "...", zh: "..." },
-  //   text:  { fr: "...", en: "...", ar: "...", zh: "..." } },
-  journey: []
+  // ---------- PARCOURS ----------
+  // group : "work" (expériences) ou "edu" (formation & certifications)
+  journey: [
+    {
+      group: "work",
+      date: { fr: "Stage de fin d'études", en: "Final-year internship", ar: "تدريب نهاية الدراسة", zh: "毕业实习" },
+      title: { fr: "Stagiaire en développement mobile & web", en: "Mobile & web development intern", ar: "متدرّب في تطوير الجوال والويب", zh: "移动与网页开发实习生" },
+      place: { fr: "ROOK-IT — Lomé", en: "ROOK-IT — Lomé", ar: "ROOK-IT — لومي", zh: "ROOK-IT — 洛美" },
+      text: {
+        fr: "Conception de « Vivre O TGO », application mobile multiservices pour le quotidien des Togolais.",
+        en: "Designed \"Vivre O TGO\", a multi-service mobile app for everyday life in Togo.",
+        ar: "تصميم «Vivre O TGO»، تطبيق جوال متعدد الخدمات للحياة اليومية في توغو.",
+        zh: "设计开发「Vivre O TGO」，一款服务多哥日常生活的综合移动应用。"
+      }
+    },
+    {
+      group: "work",
+      date: { fr: "Stage professionnel", en: "Professional internship", ar: "تدريب مهني", zh: "专业实习" },
+      title: { fr: "Stagiaire en informatique", en: "IT intern", ar: "متدرّب في المعلوميات", zh: "IT 实习生" },
+      place: { fr: "SaaSIB", en: "SaaSIB", ar: "SaaSIB", zh: "SaaSIB" },
+      text: {
+        fr: "Contribution à différents projets et activités techniques selon les besoins de l'entreprise ; participation à l'évolution et à l'amélioration de ses solutions numériques.",
+        en: "Contributed to various projects and technical tasks as the company needed; helped evolve and improve its digital solutions.",
+        ar: "المساهمة في مشاريع وأنشطة تقنية متنوعة حسب احتياجات الشركة، والمشاركة في تطوير حلولها الرقمية وتحسينها.",
+        zh: "根据公司需要参与多个项目和技术工作；参与公司数字化解决方案的迭代与优化。"
+      }
+    },
+    {
+      group: "work",
+      date: { fr: "Expérience professionnelle", en: "Work experience", ar: "خبرة مهنية", zh: "工作经历" },
+      title: { fr: "Gestionnaire de boutique", en: "Shop manager", ar: "مسيّر متجر", zh: "店铺经理" },
+      place: { fr: "RAZAKO MHD", en: "RAZAKO MHD", ar: "RAZAKO MHD", zh: "RAZAKO MHD" },
+      text: {
+        fr: "Supervision quotidienne des opérations avec un chiffre d'affaires moyen de 300 000 FCFA, gestion des stocks et suivi des approvisionnements.",
+        en: "Supervised daily operations with average revenue of 300,000 FCFA, managed stock and followed up on supplies.",
+        ar: "الإشراف اليومي على العمليات برقم أعمال متوسط قدره 300,000 فرنك إفريقي، وتسيير المخزون ومتابعة التموين.",
+        zh: "负责日常运营管理（平均营业额 300,000 西非法郎），管理库存并跟进补货。"
+      }
+    },
+    {
+      group: "edu",
+      date: "2023 — 2026",
+      title: { fr: "Licence en informatique (en cours)", en: "Bachelor's in Computer Science (in progress)", ar: "إجازة في المعلوميات (قيد الدراسة)", zh: "计算机科学学士（在读）" },
+      place: { fr: "ESGIS Togo — Lomé", en: "ESGIS Togo — Lomé", ar: "ESGIS توغو — لومي", zh: "ESGIS 多哥 — 洛美" },
+      text: {
+        fr: "Analyse et développement d'applications, systèmes bancaires et solutions digitales, gestion de projet et innovation technologique.",
+        en: "Application analysis and development, banking systems and digital solutions, project management and technological innovation.",
+        ar: "تحليل التطبيقات وتطويرها، الأنظمة البنكية والحلول الرقمية، تسيير المشاريع والابتكار التكنولوجي.",
+        zh: "应用分析与开发、银行系统与数字化解决方案、项目管理与技术创新。"
+      }
+    },
+    {
+      group: "edu",
+      date: "2026",
+      title: { fr: "Certified Linux Foundations (CLF) — en cours, examen prévu", en: "Certified Linux Foundations (CLF) — in progress, exam scheduled", ar: "Certified Linux Foundations (CLF) — قيد التحضير، الامتحان مبرمج", zh: "Certified Linux Foundations (CLF) — 备考中" },
+      place: { fr: "PECB", en: "PECB", ar: "PECB", zh: "PECB" }
+    },
+    {
+      group: "edu",
+      date: "2026",
+      title: { fr: "Certification IT Essentials 7.02", en: "IT Essentials 7.02 certification", ar: "شهادة IT Essentials 7.02", zh: "IT Essentials 7.02 证书" },
+      place: { fr: "Cisco Networking Academy", en: "Cisco Networking Academy", ar: "Cisco Networking Academy", zh: "思科网络学院" }
+    },
+    {
+      group: "edu",
+      date: { fr: "2 mois", en: "2 months", ar: "شهران", zh: "2 个月" },
+      title: { fr: "Certification en administration réseau", en: "Network administration certification", ar: "شهادة في إدارة الشبكات", zh: "网络管理证书" },
+      place: { fr: "PSM — Lomé", en: "PSM — Lomé", ar: "PSM — لومي", zh: "PSM — 洛美" }
+    }
+  ]
 };

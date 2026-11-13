@@ -50,7 +50,8 @@
       return '<article class="card reveal">' +
         '<div class="card__icon">' + icon(s.icon) + "</div>" +
         "<h3>" + esc(tr(s.title)) + "</h3>" +
-        '<ul class="tags">' + (s.tags || []).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" +
+        tagList(s.tags) +
+        (s.learning ? '<p class="card__note"><strong>' + esc(t("skills.learning")) + "</strong> " + esc(s.learning) + "</p>" : "") +
         "</article>";
     }).join("");
   }
@@ -61,11 +62,13 @@
       var links = "";
       if (p.demo) links += '<a href="' + esc(p.demo) + '" target="_blank" rel="noopener">' + esc(t("projects.demo")) + " →</a>";
       if (p.code) links += '<a href="' + esc(p.code) + '" target="_blank" rel="noopener">' + esc(t("projects.code")) + "</a>";
-      return '<article class="card reveal">' +
+      var pts = (p.points && (p.points[lang] || p.points.fr)) || [];
+      return '<article class="card reveal' + (p.wide ? " card--wide" : "") + '">' +
         (p.image ? '<img class="project__img" src="' + esc(p.image) + '" alt="" loading="lazy">' : "") +
         "<h3>" + esc(tr(p.title)) + "</h3>" +
-        "<p>" + esc(tr(p.text)) + "</p>" +
-        (p.tags && p.tags.length ? '<ul class="tags">' + p.tags.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") +
+        (p.text ? "<p>" + esc(tr(p.text)) + "</p>" : "") +
+        (pts.length ? '<ul class="cols">' + pts.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") +
+        tagList(p.tags) +
         (links ? '<div class="project__links">' + links + "</div>" : "") +
         "</article>";
     }).join("");
@@ -73,14 +76,32 @@
 
   function renderJourney() {
     toggleSection("journey", SITE.journey.length);
-    document.getElementById("journey-list").innerHTML = SITE.journey.map(function (j) {
-      return '<li class="reveal">' +
-        '<div class="timeline__date">' + esc(j.date || "") + "</div>" +
-        "<h3>" + esc(tr(j.title)) + "</h3>" +
-        (j.place ? '<div class="timeline__place">' + esc(tr(j.place)) + "</div>" : "") +
-        (j.text ? "<p>" + esc(tr(j.text)) + "</p>" : "") +
-        "</li>";
+    ["work", "edu"].forEach(function (group) {
+      var items = SITE.journey.filter(function (j) { return (j.group || "work") === group; });
+      var list = document.getElementById("journey-" + group);
+      list.parentNode.hidden = !items.length;
+      list.innerHTML = items.map(function (j) {
+        return '<li class="reveal">' +
+          '<div class="timeline__date">' + esc(typeof j.date === "string" ? j.date : tr(j.date)) + "</div>" +
+          "<h4>" + esc(tr(j.title)) + "</h4>" +
+          (j.place ? '<div class="timeline__place">' + esc(tr(j.place)) + "</div>" : "") +
+          (j.text ? "<p>" + esc(tr(j.text)) + "</p>" : "") +
+          "</li>";
+      }).join("");
+    });
+  }
+
+  function renderQualities() {
+    document.getElementById("qualities-list").innerHTML = (SITE.qualities || []).map(function (q) {
+      return "<li>" + esc(tr(q)) + "</li>";
     }).join("");
+  }
+
+  function tagList(tags) {
+    if (!tags || !tags.length) return "";
+    return '<ul class="tags">' + tags.map(function (x) {
+      return "<li>" + esc(typeof x === "string" ? x : tr(x)) + "</li>";
+    }).join("") + "</ul>";
   }
 
   function toggleSection(id, hasItems) {
@@ -106,6 +127,7 @@
     renderSkills();
     renderProjects();
     renderJourney();
+    renderQualities();
     observeReveals();
     safeSet("lang", lang);
   }
