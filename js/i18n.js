@@ -286,7 +286,19 @@ window.SITE = {
   //   image: "assets/projets/mon-projet.jpg",   (facultatif)
   //   tags: ["React", "Node.js"],
   //   demo: "https://...", code: "https://github.com/..." },
-  projects: [],
+  projects: [
+    {
+      title: { fr: "SaaSIB — Plateforme multiservice", en: "SaaSIB — Multi-service platform", ar: "SaaSIB — منصة متعددة الخدمات", zh: "SaaSIB — 综合服务平台" },
+      text: {
+        fr: "Plateforme web qui réunit en un seul espace des formations professionnelles certifiantes, un catalogue immobilier et une boutique en ligne avec vendeurs vérifiés. Inscriptions en ligne, espace apprenant, paiement en FCFA et assistant de support.",
+        en: "A web platform bringing together certified professional training, a real-estate catalogue and an online shop with verified sellers. Online enrolment, learner area, FCFA payments and a support assistant.",
+        ar: "منصة ويب تجمع في مكان واحد دورات تدريبية مهنية معتمدة، وكتالوجًا عقاريًا، ومتجرًا إلكترونيًا بباعة موثوقين. تسجيل عبر الإنترنت، فضاء للمتعلم، الدفع بالفرنك الإفريقي ومساعد للدعم.",
+        zh: "一个综合网页平台，集专业认证培训、房地产目录和拥有认证卖家的网上商店于一体。支持在线报名、学员空间、西非法郎支付和客服助手。"
+      },
+      tags: ["Web", "E-learning", "E-commerce"],
+      demo: "https://saasib.com"
+    }
+  ],
 
   // ---------- PARCOURS (à remplir depuis le CV) ----------
   // Exemple :
