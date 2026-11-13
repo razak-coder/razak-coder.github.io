@@ -43,6 +43,11 @@ window.SITE = {
       "about.work": "Freelance, à distance ou sur place",
       "services.kicker": "Services",
       "services.title": "Ce que je peux faire pour vous",
+      "services.lead": "Du site web à la livraison de vos marchandises : je relie le digital et le commerce entre la Chine et l'Afrique de l'Ouest.",
+      "globe.caption": "Route d'import Chine → Lomé",
+      "globe.lome": "Lomé",
+      "globe.china": "Guangzhou",
+      "hero.badge": "Lomé · Togo",
       "skills.kicker": "Compétences",
       "skills.title": "Mes outils et savoir-faire",
       "projects.kicker": "Projets",
@@ -103,6 +108,11 @@ window.SITE = {
       "about.work": "Freelance, remote or on-site",
       "services.kicker": "Services",
       "services.title": "What I can do for you",
+      "services.lead": "From your website to the delivery of your goods: I connect digital and trade between China and West Africa.",
+      "globe.caption": "Import route China → Lomé",
+      "globe.lome": "Lomé",
+      "globe.china": "Guangzhou",
+      "hero.badge": "Lomé · Togo",
       "skills.kicker": "Skills",
       "skills.title": "My tools and expertise",
       "projects.kicker": "Projects",
@@ -163,6 +173,11 @@ window.SITE = {
       "about.work": "مستقل، عن بُعد أو حضوريًا",
       "services.kicker": "الخدمات",
       "services.title": "ما يمكنني تقديمه لك",
+      "services.lead": "من موقعك الإلكتروني إلى تسليم بضائعك: أربط بين الرقمنة والتجارة بين الصين وغرب إفريقيا.",
+      "globe.caption": "طريق الاستيراد الصين ← لومي",
+      "globe.lome": "لومي",
+      "globe.china": "قوانغتشو",
+      "hero.badge": "لومي · توغو",
       "skills.kicker": "المهارات",
       "skills.title": "أدواتي وخبراتي",
       "projects.kicker": "المشاريع",
@@ -223,6 +238,11 @@ window.SITE = {
       "about.work": "自由职业，远程或现场",
       "services.kicker": "服务",
       "services.title": "我能为您做什么",
+      "services.lead": "从网站建设到货物交付：我连接中国与西非之间的数字化与贸易。",
+      "globe.caption": "进口路线：中国 → 洛美",
+      "globe.lome": "洛美",
+      "globe.china": "广州",
+      "hero.badge": "多哥 · 洛美",
       "skills.kicker": "技能",
       "skills.title": "我的工具与专长",
       "projects.kicker": "项目",
@@ -376,7 +396,8 @@ window.SITE = {
         zh: "专业实习：参与该平台的迭代与优化。平台集专业认证培训、房地产目录和拥有认证卖家的网上商店于一体，支持西非法郎支付。"
       },
       tags: ["Web", "E-learning", "E-commerce"],
-      demo: "https://saasib.com"
+      demo: "https://saasib.com",
+      image: "assets/projets/saasib"
     },
     {
       title: { fr: "Vivre O TGO : Tout le Togo dans votre poche", en: "Vivre O TGO: All of Togo in your pocket", ar: "Vivre O TGO: كل توغو في جيبك", zh: "Vivre O TGO：口袋里的多哥" },
@@ -407,7 +428,8 @@ window.SITE = {
         zh: "面向多哥高校社区的移动平台：高校名录及详细介绍、校园动态、学生社团和学生个人主页。"
       },
       tags: ["Flutter", "Dart", "Firebase", "Riverpod"],
-      demo: "https://goulcommunity-tg.web.app"
+      demo: "https://goulcommunity-tg.web.app",
+      image: "assets/projets/goul"
     },
     {
       wide: true,

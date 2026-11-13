@@ -6,6 +6,7 @@
   var EMAIL = "hamadouabdourazak96@gmail.com";
   var root = document.documentElement;
   var lang = "fr";
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   var ICONS = {
     code: '<path d="M8 6l-6 6 6 6M16 6l6 6-6 6M14 4l-4 16"/>',
@@ -60,11 +61,15 @@
     toggleSection("projects", SITE.projects.length);
     document.getElementById("projects-list").innerHTML = SITE.projects.map(function (p) {
       var links = "";
-      if (p.demo) links += '<a href="' + esc(p.demo) + '" target="_blank" rel="noopener">' + esc(t("projects.demo")) + " →</a>";
+      if (p.demo) links += '<a href="' + esc(p.demo) + '" target="_blank" rel="noopener">' + esc(t("projects.demo")) + ' <span class="arrow" aria-hidden="true">→</span></a>';
       if (p.code) links += '<a href="' + esc(p.code) + '" target="_blank" rel="noopener">' + esc(t("projects.code")) + "</a>";
       var pts = (p.points && (p.points[lang] || p.points.fr)) || [];
-      return '<article class="card reveal' + (p.wide ? " card--wide" : "") + '">' +
-        (p.image ? '<img class="project__img" src="' + esc(p.image) + '" alt="" loading="lazy">' : "") +
+      var shot = p.image ?
+        '<div class="project__shot" aria-hidden="true"><span class="project__bar"><i></i><i></i><i></i></span>' +
+        '<picture><source srcset="' + esc(p.image) + '.webp" type="image/webp">' +
+        '<img src="' + esc(p.image) + '.jpg" alt="" width="1200" height="675" loading="lazy" decoding="async"></picture></div>' : "";
+      return '<article class="card reveal' + (p.wide ? " card--wide" : " card--project") + '">' +
+        shot +
         "<h3>" + esc(tr(p.title)) + "</h3>" +
         (p.text ? "<p>" + esc(tr(p.text)) + "</p>" : "") +
         (pts.length ? '<ul class="cols">' + pts.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") +
@@ -126,9 +131,16 @@
     renderServices();
     renderSkills();
     renderProjects();
+    if (typeof tiltProjects === "function") tiltProjects();
     renderJourney();
     renderQualities();
     observeReveals();
+    var globe = document.getElementById("globe");
+    if (globe) {
+      globe.setAttribute("data-lome", t("globe.lome"));
+      globe.setAttribute("data-china", t("globe.china"));
+      window.dispatchEvent(new Event("portfolio:lang"));
+    }
     safeSet("lang", lang);
   }
 
@@ -139,7 +151,16 @@
     return SITE.languages.indexOf(nav) >= 0 ? nav : "fr";
   }
 
-  document.getElementById("lang-select").addEventListener("change", function (e) { setLang(e.target.value); });
+  // Changement de langue en fondu (instantané si animations réduites)
+  document.getElementById("lang-select").addEventListener("change", function (e) {
+    var next = e.target.value;
+    if (reduceMotion) { setLang(next); return; }
+    root.classList.add("lang-switch");
+    setTimeout(function () {
+      setLang(next);
+      requestAnimationFrame(function () { root.classList.remove("lang-switch"); });
+    }, 180);
+  });
 
   /* ---------- Thème clair / sombre ---------- */
   document.getElementById("theme-toggle").addEventListener("click", function () {
@@ -187,8 +208,56 @@
 
   function observeReveals() {
     document.querySelectorAll(".reveal:not(.is-visible)").forEach(function (el) {
+      // Cascade : chaque élément d'une grille ou d'une liste attend un peu plus que le précédent
+      var i = Array.prototype.indexOf.call(el.parentNode.children, el);
+      el.style.setProperty("--d", (Math.max(i, 0) % 6) * 80 + "ms");
       if (revealObs) revealObs.observe(el); else el.classList.add("is-visible");
     });
+  }
+
+  /* ---------- Barre de progression de lecture ---------- */
+  var bar = document.getElementById("progress-bar");
+  var ticking = false;
+  function updateProgress() {
+    var max = document.documentElement.scrollHeight - window.innerHeight;
+    bar.style.transform = "scaleX(" + (max > 0 ? Math.min(window.scrollY / max, 1) : 0) + ")";
+    ticking = false;
+  }
+  window.addEventListener("scroll", function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(updateProgress); }
+  }, { passive: true });
+  updateProgress();
+
+  /* ---------- Inclinaison 3D au survol (souris uniquement) ---------- */
+  var finePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+  function tilt(el, max) {
+    var target = el.querySelector(".tilt") || el;
+    var raf = 0;
+    el.addEventListener("pointermove", function (e) {
+      var r = el.getBoundingClientRect();
+      var x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(function () {
+        target.style.setProperty("--rx", (-y * max).toFixed(2) + "deg");
+        target.style.setProperty("--ry", (x * max).toFixed(2) + "deg");
+        target.style.setProperty("--gx", (x + 0.5) * 100 + "%");
+        target.style.setProperty("--gy", (y + 0.5) * 100 + "%");
+      });
+      target.classList.add("is-tilting");
+    });
+    el.addEventListener("pointerleave", function () {
+      cancelAnimationFrame(raf);
+      target.classList.remove("is-tilting");
+      target.style.setProperty("--rx", "0deg");
+      target.style.setProperty("--ry", "0deg");
+    });
+  }
+  if (finePointer && !reduceMotion) {
+    document.querySelectorAll("[data-tilt]").forEach(function (el) { tilt(el, 10); });
+  }
+  function tiltProjects() {
+    if (!finePointer || reduceMotion) return;
+    document.querySelectorAll(".card--project").forEach(function (el) { tilt(el, 4); });
   }
 
   /* ---------- Formulaire : WhatsApp ou email (aucun serveur requis) ---------- */
@@ -225,6 +294,10 @@
 
   /* ---------- Init ---------- */
   document.getElementById("year").textContent = new Date().getFullYear();
-  document.querySelectorAll(".about, .hero__text, .hero__photo, .contact > *").forEach(function (el) { el.classList.add("reveal"); });
+  document.querySelectorAll(".about__photo, .about__text, .services__head > *, .journey > div, .contact > *").forEach(function (el) { el.classList.add("reveal"); });
+  // Ordre d'apparition des éléments de l'accueil
+  document.querySelectorAll(".hero__text > *").forEach(function (el, i) { el.style.setProperty("--i", i); });
   setLang(initialLang());
+  // Entrée de l'accueil en cascade, déclenchée après le premier affichage
+  requestAnimationFrame(function () { requestAnimationFrame(function () { root.classList.add("is-loaded"); }); });
 })();
