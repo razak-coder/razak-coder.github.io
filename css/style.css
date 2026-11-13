@@ -482,3 +482,35 @@ main, .footer { transition: opacity .18s var(--ease); }
   .tilt, .card--project { transform: none; }
   *, *::before, *::after { transition-duration: 0s !important; animation-duration: 0s !important; }
 }
+
+/* Bouton WhatsApp flottant : mobile et tablette uniquement */
+.fab {
+  position: fixed; z-index: 55;
+  inset-inline-end: 16px; bottom: calc(16px + env(safe-area-inset-bottom));
+  display: inline-flex; align-items: center; gap: 8px; min-height: 52px; padding: 0 20px 0 16px;
+  background: var(--color-accent); color: var(--color-on-accent); text-decoration: none;
+  font-weight: 600; font-size: .95rem; border-radius: 999px;
+  box-shadow: 0 10px 30px -10px rgba(37, 99, 235, .6);
+  opacity: 0; translate: 0 24px; pointer-events: none;
+  transition: opacity .3s var(--ease), translate .3s var(--ease), background-color .2s var(--ease);
+}
+.fab svg { width: 22px; height: 22px; }
+.fab.is-shown { opacity: 1; translate: 0 0; pointer-events: auto; }
+.fab:hover { background: var(--color-accent-hover); }
+@media (min-width: 900px) { .fab { display: none; } }
+
+/* Méthode de travail */
+.section__lead { color: var(--color-muted-foreground); max-width: 56ch; margin-top: var(--space-2); }
+.process { display: grid; gap: var(--space-6) var(--space-8); margin-top: var(--space-6); }
+@media (min-width: 900px) { .process { grid-template-columns: 1fr 1fr; } }
+.process__head { font-size: 1rem; margin: 0; padding-bottom: 12px; border-bottom: 1px solid var(--color-border-strong); }
+.steps { list-style: none; padding: 0; margin: 0; }
+.step { display: grid; grid-template-columns: 56px 1fr; gap: var(--space-2); padding: var(--space-3) 0; border-bottom: 1px solid var(--color-border); }
+.step__num { font-size: 1.6rem; font-weight: 700; letter-spacing: -.03em; color: var(--color-accent-text); font-variant-numeric: tabular-nums; line-height: 1.1; }
+.step h4 { font-size: 1.02rem; font-weight: 600; margin: 0 0 4px; }
+.step p { color: var(--color-muted-foreground); margin: 0; }
+.step__num { transition: translate .3s var(--ease); }
+.step:hover .step__num { translate: 4px 0; }
+[dir="rtl"] .step:hover .step__num { translate: -4px 0; }
+
+picture { display: block; }

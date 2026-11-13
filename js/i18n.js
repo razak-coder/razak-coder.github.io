@@ -43,6 +43,11 @@ window.SITE = {
       "about.work": "Freelance, à distance ou sur place",
       "services.kicker": "Services",
       "services.title": "Ce que je peux faire pour vous",
+      "process.kicker": "Méthode",
+      "process.title": "Comment je travaille",
+      "process.lead": "Des étapes claires, un interlocuteur unique et des nouvelles régulières, du premier message à la livraison.",
+      "process.web": "Site ou application",
+      "process.import": "Import depuis la Chine",
       "services.lead": "Du site web à la livraison de vos marchandises : je relie le digital et le commerce entre la Chine et l'Afrique de l'Ouest.",
       "globe.caption": "Route d'import Chine → Lomé",
       "globe.lome": "Lomé",
@@ -63,6 +68,7 @@ window.SITE = {
       "contact.title": "Parlons de votre projet",
       "contact.lead": "Un site à créer, une commande à importer de Chine ou une simple question ? Écrivez-moi, je réponds rapidement.",
       "contact.whatsapp": "Écrire sur WhatsApp",
+      "fab.text": "Bonjour Abdourazak, je viens de votre portfolio. ",
       "form.name": "Votre nom",
       "form.subject": "Sujet",
       "form.subjectWeb": "Création de site web",
@@ -108,6 +114,11 @@ window.SITE = {
       "about.work": "Freelance, remote or on-site",
       "services.kicker": "Services",
       "services.title": "What I can do for you",
+      "process.kicker": "Method",
+      "process.title": "How I work",
+      "process.lead": "Clear steps, a single point of contact and regular updates, from the first message to delivery.",
+      "process.web": "Website or app",
+      "process.import": "Import from China",
       "services.lead": "From your website to the delivery of your goods: I connect digital and trade between China and West Africa.",
       "globe.caption": "Import route China → Lomé",
       "globe.lome": "Lomé",
@@ -128,6 +139,7 @@ window.SITE = {
       "contact.title": "Let's talk about your project",
       "contact.lead": "A website to build, an order to import from China, or just a question? Write to me and I'll reply quickly.",
       "contact.whatsapp": "Message me on WhatsApp",
+      "fab.text": "Hello Abdourazak, I found you through your portfolio. ",
       "form.name": "Your name",
       "form.subject": "Subject",
       "form.subjectWeb": "Website development",
@@ -173,6 +185,11 @@ window.SITE = {
       "about.work": "مستقل، عن بُعد أو حضوريًا",
       "services.kicker": "الخدمات",
       "services.title": "ما يمكنني تقديمه لك",
+      "process.kicker": "المنهجية",
+      "process.title": "كيف أعمل",
+      "process.lead": "مراحل واضحة، ومخاطَب واحد، ومتابعة منتظمة، من أول رسالة حتى التسليم.",
+      "process.web": "موقع أو تطبيق",
+      "process.import": "الاستيراد من الصين",
       "services.lead": "من موقعك الإلكتروني إلى تسليم بضائعك: أربط بين الرقمنة والتجارة بين الصين وغرب إفريقيا.",
       "globe.caption": "طريق الاستيراد الصين ← لومي",
       "globe.lome": "لومي",
@@ -193,6 +210,7 @@ window.SITE = {
       "contact.title": "لنتحدث عن مشروعك",
       "contact.lead": "موقع تريد إنشاءه، أو طلبية تريد استيرادها من الصين، أو مجرد سؤال؟ راسلني وسأرد بسرعة.",
       "contact.whatsapp": "راسلني على واتساب",
+      "fab.text": "مرحبًا عبد الرزاق، وصلت إليك عبر موقعك. ",
       "form.name": "اسمك",
       "form.subject": "الموضوع",
       "form.subjectWeb": "إنشاء موقع ويب",
@@ -238,6 +256,11 @@ window.SITE = {
       "about.work": "自由职业，远程或现场",
       "services.kicker": "服务",
       "services.title": "我能为您做什么",
+      "process.kicker": "工作方式",
+      "process.title": "我的工作流程",
+      "process.lead": "步骤清晰、单一对接人、定期汇报进度，从第一条消息到最终交付。",
+      "process.web": "网站或应用",
+      "process.import": "中国进口",
       "services.lead": "从网站建设到货物交付：我连接中国与西非之间的数字化与贸易。",
       "globe.caption": "进口路线：中国 → 洛美",
       "globe.lome": "洛美",
@@ -258,6 +281,7 @@ window.SITE = {
       "contact.title": "聊聊您的项目",
       "contact.lead": "想建网站、从中国进口货物，或者只是有个问题？欢迎联系我，我会尽快回复。",
       "contact.whatsapp": "通过 WhatsApp 联系",
+      "fab.text": "你好 Abdourazak，我是通过你的作品集网站找到你的。",
       "form.name": "您的姓名",
       "form.subject": "主题",
       "form.subjectWeb": "网站开发",
@@ -324,6 +348,30 @@ window.SITE = {
       }
     }
   ],
+
+  // ---------- MÉTHODE DE TRAVAIL ----------
+  process: {
+    web: [
+      { title: { fr: "Échange", en: "Discovery", ar: "التواصل", zh: "沟通需求" },
+        text: { fr: "On définit ensemble vos objectifs, votre public et votre budget.", en: "Together we define your goals, audience and budget.", ar: "نحدد معًا أهدافك وجمهورك وميزانيتك.", zh: "一起明确您的目标、受众和预算。" } },
+      { title: { fr: "Maquette", en: "Mock-up", ar: "النموذج", zh: "设计原型" },
+        text: { fr: "Je vous présente la structure et le design avant d'écrire la moindre ligne de code.", en: "I show you the structure and design before writing any code.", ar: "أعرض عليك الهيكل والتصميم قبل كتابة أي سطر برمجي.", zh: "在编写代码之前，先向您展示结构和设计。" } },
+      { title: { fr: "Développement", en: "Development", ar: "التطوير", zh: "开发实现" },
+        text: { fr: "Un site rapide, adapté au mobile et testé sur plusieurs appareils.", en: "A fast, mobile-friendly site, tested on several devices.", ar: "موقع سريع ومتوافق مع الهاتف ومجرَّب على عدة أجهزة.", zh: "快速、适配手机，并在多种设备上测试。" } },
+      { title: { fr: "Mise en ligne et suivi", en: "Launch and support", ar: "الإطلاق والمتابعة", zh: "上线与维护" },
+        text: { fr: "Publication, prise en main expliquée et maintenance si besoin.", en: "Go-live, a walkthrough of how to use it, and maintenance if needed.", ar: "النشر، وشرح طريقة الاستخدام، والصيانة عند الحاجة.", zh: "正式上线、使用培训，并按需提供维护。" } }
+    ],
+    import: [
+      { title: { fr: "Votre besoin", en: "Your request", ar: "طلبك", zh: "您的需求" },
+        text: { fr: "Produit, quantité, budget et délai souhaité.", en: "Product, quantity, budget and timeline.", ar: "المنتج والكمية والميزانية والمدة المطلوبة.", zh: "产品、数量、预算和期望时间。" } },
+      { title: { fr: "Sourcing", en: "Sourcing", ar: "البحث عن المورّد", zh: "寻找货源" },
+        text: { fr: "Recherche et comparaison de fournisseurs fiables en Chine.", en: "Finding and comparing reliable suppliers in China.", ar: "البحث عن موردين موثوقين في الصين ومقارنتهم.", zh: "在中国寻找并比较可靠的供应商。" } },
+      { title: { fr: "Contrôle", en: "Checks", ar: "المراقبة", zh: "质量把控" },
+        text: { fr: "Vérification des produits et de la commande avant l'expédition.", en: "Checking products and the order before shipping.", ar: "فحص المنتجات والطلبية قبل الشحن.", zh: "发货前检查产品和订单。" } },
+      { title: { fr: "Livraison", en: "Delivery", ar: "التسليم", zh: "交付" },
+        text: { fr: "Suivi de l'expédition jusqu'à la réception à Lomé.", en: "Tracking the shipment until it arrives in Lomé.", ar: "متابعة الشحنة حتى وصولها إلى لومي.", zh: "全程跟踪物流，直至货物抵达洛美。" } }
+    ]
+  },
 
   // ---------- QUALITÉS (section À propos) ----------
   qualities: [

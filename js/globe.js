@@ -163,7 +163,7 @@ var LAND = "-21a:-2c1,-204:-2d4,-204:-246,-1ee:-2da,-1ee:-2b8,-1ee:2b8,-1d8:-2ca
   var visible = true;
   if ("IntersectionObserver" in window) {
     visible = false;
-    new IntersectionObserver(function (e) { visible = e[0].isIntersecting; visible ? start() : stop(); }).observe(canvas);
+    new IntersectionObserver(function (e) { visible = e[e.length - 1].isIntersecting; visible ? start() : stop(); }).observe(canvas);
   } else start();
   document.addEventListener("visibilitychange", function () { if (document.hidden) stop(); else if (visible) start(); });
   if (reduce) draw(performance.now());

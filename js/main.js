@@ -96,6 +96,16 @@
     });
   }
 
+  function renderProcess() {
+    if (!SITE.process) return;
+    ["web", "import"].forEach(function (k) {
+      document.getElementById("process-" + k).innerHTML = (SITE.process[k] || []).map(function (st, i) {
+        return '<li class="step reveal"><span class="step__num" aria-hidden="true">' + String(i + 1).padStart(2, "0") + "</span>" +
+          "<div><h4>" + esc(tr(st.title)) + "</h4><p>" + esc(tr(st.text)) + "</p></div></li>";
+      }).join("");
+    });
+  }
+
   function renderQualities() {
     document.getElementById("qualities-list").innerHTML = (SITE.qualities || []).map(function (q) {
       return "<li>" + esc(tr(q)) + "</li>";
@@ -125,6 +135,14 @@
       var v = t(el.getAttribute("data-i18n"));
       if (v) el.textContent = v;
     });
+    document.querySelectorAll("[data-i18n-aria]").forEach(function (el) {
+      el.setAttribute("aria-label", t(el.getAttribute("data-i18n-aria")));
+    });
+    // CV en anglais quand le site est en anglais, sinon CV français
+    document.querySelectorAll("a[download]").forEach(function (el) {
+      el.href = "assets/CV-Hamadou-Abdourazak" + (lang === "en" ? "-EN" : "") + ".pdf";
+    });
+    document.getElementById("fab").href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(t("fab.text"));
     document.getElementById("theme-toggle").setAttribute("aria-label", t("ui.theme"));
     document.getElementById("menu-toggle").setAttribute("aria-label", t("ui.menu"));
     document.getElementById("lang-select").value = lang;
@@ -134,6 +152,7 @@
     if (typeof tiltProjects === "function") tiltProjects();
     renderJourney();
     renderQualities();
+    renderProcess();
     observeReveals();
     var globe = document.getElementById("globe");
     if (globe) {
@@ -213,6 +232,18 @@
       el.style.setProperty("--d", (Math.max(i, 0) % 6) * 80 + "ms");
       if (revealObs) revealObs.observe(el); else el.classList.add("is-visible");
     });
+  }
+
+  /* ---------- Bouton WhatsApp flottant : visible après l'accueil, caché sur la section Contact ---------- */
+  var fab = document.getElementById("fab");
+  fab.hidden = false;
+  if ("IntersectionObserver" in window) {
+    var heroVisible = true, contactVisible = false;
+    var syncFab = function () { fab.classList.toggle("is-shown", !heroVisible && !contactVisible); };
+    new IntersectionObserver(function (e) { heroVisible = e[e.length - 1].isIntersecting; syncFab(); }).observe(document.querySelector(".hero"));
+    new IntersectionObserver(function (e) { contactVisible = e[e.length - 1].isIntersecting; syncFab(); }, { rootMargin: "0px 0px -20% 0px" }).observe(document.getElementById("contact"));
+  } else {
+    fab.classList.add("is-shown");
   }
 
   /* ---------- Barre de progression de lecture ---------- */

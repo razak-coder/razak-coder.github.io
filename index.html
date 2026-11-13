@@ -2,20 +2,59 @@
 <html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Hamadou Abdourazak | Portfolio</title>
   <meta name="description" content="Hamadou Abdourazak, développeur web et mobile à Lomé (Laravel, React, Flutter, Spring Boot) et import de marchandises depuis la Chine. Disponible pour missions freelance.">
-  <meta property="og:title" content="Hamadou Abdourazak | Portfolio">
-  <meta property="og:description" content="Développeur web & import depuis la Chine. Disponible pour vos projets.">
-  <meta property="og:image" content="https://razak-coder.github.io/assets/profile.jpg">
-  <meta property="og:url" content="https://razak-coder.github.io/">
+  <link rel="canonical" href="https://razak-coder.github.io/">
+  <meta name="author" content="Hamadou Abdourazak">
+  <meta name="robots" content="index, follow">
+  <!-- Fiche d'identité pour Google (données structurées) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Hamadou Abdourazak",
+    "jobTitle": "Développeur web et mobile",
+    "description": "Développeur web et mobile à Lomé (Laravel, React, Flutter, Spring Boot) et import de marchandises depuis la Chine.",
+    "url": "https://razak-coder.github.io/",
+    "image": "https://razak-coder.github.io/assets/og-image.jpg",
+    "email": "mailto:hamadouabdourazak96@gmail.com",
+    "telephone": "+22899718792",
+    "nationality": "Togolaise",
+    "address": { "@type": "PostalAddress", "addressLocality": "Lomé", "addressRegion": "Agoè-Zongo", "addressCountry": "TG" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "ESGIS Togo" },
+    "knowsLanguage": ["fr", "en"],
+    "knowsAbout": ["Développement web", "Développement mobile", "Laravel", "React", "Node.js", "Flutter", "Spring Boot", "Django", "PostgreSQL", "Administration réseau", "Import depuis la Chine"],
+    "sameAs": [
+      "https://linkedin.com/in/abdourazak-hamadou-491520297",
+      "https://github.com/razak-coder",
+      "https://www.tiktok.com/@razakohweb"
+    ]
+  }
+  </script>
+  <!-- Aperçu lors des partages (WhatsApp, LinkedIn, TikTok, Facebook, X) -->
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hamadou Abdourazak">
+  <meta property="og:title" content="Hamadou Abdourazak | Développeur web & mobile">
+  <meta property="og:description" content="Sites et applications web et mobiles (Laravel, React, Flutter) et import de marchandises depuis la Chine. Basé à Lomé, disponible pour vos projets.">
+  <meta property="og:url" content="https://razak-coder.github.io/">
+  <meta property="og:image" content="https://razak-coder.github.io/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Hamadou Abdourazak, développeur web et mobile à Lomé">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ar_AR">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://razak-coder.github.io/assets/og-image.jpg">
   <meta name="theme-color" content="#FAFAFA" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#09090B" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%2318181B'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='28' fill='%23ffffff'>HA</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/profile.webp" type="image/webp" fetchpriority="high">
   <link rel="stylesheet" href="css/style.css">
   <script>
     // Active les animations seulement si JS tourne, et applique le thème avant l'affichage
@@ -98,7 +137,7 @@
           <div class="tilt">
             <span class="tilt__frame" aria-hidden="true"></span>
             <div class="tilt__media">
-              <img src="assets/profile.jpg" alt="Portrait de Hamadou Abdourazak" width="960" height="1280" fetchpriority="high">
+              <picture><source srcset="assets/profile.webp" type="image/webp"><img src="assets/profile.jpg" alt="Portrait de Hamadou Abdourazak" width="880" height="1173" fetchpriority="high" decoding="async"></picture>
               <span class="tilt__glare" aria-hidden="true"></span>
             </div>
             <span class="tilt__badge" aria-hidden="true" data-i18n="hero.badge">Lomé · Togo</span>
@@ -111,7 +150,7 @@
     <section class="section" id="about">
       <div class="container about">
         <div class="about__photo">
-          <img src="assets/about.jpg" alt="Hamadou Abdourazak au bureau" width="720" height="1280" loading="lazy">
+          <picture><source srcset="assets/about.webp" type="image/webp"><img src="assets/about.jpg" alt="Hamadou Abdourazak au bureau" width="720" height="1280" loading="lazy" decoding="async"></picture>
         </div>
         <div class="about__text">
           <p class="kicker" data-i18n="about.kicker">À propos</p>
@@ -144,6 +183,25 @@
           </figure>
         </div>
         <div class="grid grid--services" id="services-list"></div>
+      </div>
+    </section>
+
+    <!-- MÉTHODE -->
+    <section class="section" id="process">
+      <div class="container">
+        <p class="kicker" data-i18n="process.kicker">Méthode</p>
+        <h2 data-i18n="process.title">Comment je travaille</h2>
+        <p class="section__lead" data-i18n="process.lead">Des étapes claires, un interlocuteur unique et des nouvelles régulières, du premier message à la livraison.</p>
+        <div class="process">
+          <div class="process__track">
+            <h3 class="process__head" data-i18n="process.web">Site ou application</h3>
+            <ol class="steps" id="process-web"></ol>
+          </div>
+          <div class="process__track">
+            <h3 class="process__head" data-i18n="process.import">Import depuis la Chine</h3>
+            <ol class="steps" id="process-import"></ol>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -240,6 +298,12 @@
       </div>
     </section>
   </main>
+
+  <!-- Bouton WhatsApp flottant (mobile) -->
+  <a class="fab" id="fab" href="https://wa.me/22899718792" target="_blank" rel="noopener" aria-label="Écrire sur WhatsApp" data-i18n-aria="contact.whatsapp" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.3-.5 0-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.3 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.1.1.6-.1 1.2z"/></svg>
+    <span>WhatsApp</span>
+  </a>
 
   <footer class="footer">
     <div class="container footer__inner">
